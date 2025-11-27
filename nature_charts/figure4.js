@@ -3,10 +3,13 @@ const Figure4 = {
         const container = d3.select(containerId);
         container.html("");
 
+        // Load the Python-generated SVG if available, or render D3 version
+        // For now, we will render the D3 version but updated to match the Python style
+
         const width = 1000;
-        const height = 600;
-        const panelHeight = 180;
-        const gap = 20;
+        const height = 800; // Increased height for better spacing
+        const panelHeight = 250;
+        const gap = 30;
 
         const svg = container.append("svg")
             .attr("width", "100%")
@@ -14,24 +17,30 @@ const Figure4 = {
             .attr("viewBox", `0 0 ${width} ${height}`)
             .attr("class", "chart-svg");
 
+        // Colors from Python script
+        const COLOR_A = '#E63946'; // Red
+        const COLOR_B = '#457B9D'; // Blue
+        const COLOR_C = '#2A9D8F'; // Green
+        const BG_COLOR = '#F1FAEE';
+
         // Define Panels
         const panels = [
-            { id: "A", title: "Panel A: The Aging Pipeline", color: "#FFF5F5", stroke: getColor("red"), y: 0 },
-            { id: "B", title: "Panel B: The Nano-Enhancement Pipeline", color: "#F0F8FF", stroke: getColor("blue"), y: panelHeight + gap },
-            { id: "C", title: "Panel C: The Mixture Unmixing Pipeline", color: "#F0FFF0", stroke: getColor("green"), y: (panelHeight + gap) * 2 }
+            { id: "A", title: "Panel A: The Aging Pipeline", color: BG_COLOR, stroke: COLOR_A, y: 0 },
+            { id: "B", title: "Panel B: Nano-Enhancement Pipeline", color: BG_COLOR, stroke: COLOR_B, y: panelHeight + gap },
+            { id: "C", title: "Panel C: Mixture Unmixing Pipeline", color: BG_COLOR, stroke: COLOR_C, y: (panelHeight + gap) * 2 }
         ];
 
         panels.forEach(panel => {
             const g = svg.append("g").attr("transform", `translate(0, ${panel.y})`);
 
-            // Container
+            // Panel Box (FancyBboxPatch style)
             g.append("rect")
                 .attr("x", 10)
                 .attr("y", 10)
                 .attr("width", width - 20)
                 .attr("height", panelHeight)
-                .attr("rx", 10)
-                .attr("fill", panel.color)
+                .attr("rx", 15) // Rounder corners
+                .attr("fill", "none") // Transparent face
                 .attr("stroke", panel.stroke)
                 .attr("stroke-width", 2);
 
@@ -41,13 +50,14 @@ const Figure4 = {
                 .attr("y", 40)
                 .text(panel.title)
                 .attr("font-weight", "bold")
-                .attr("font-size", "16px")
-                .attr("fill", getColor("darkBlue"));
+                .attr("font-size", "18px")
+                .attr("font-family", "Arial, sans-serif")
+                .attr("fill", panel.stroke);
 
             // Draw Pipeline Content based on ID
-            if (panel.id === "A") this.drawPanelA(g, panelHeight);
-            if (panel.id === "B") this.drawPanelB(g, panelHeight);
-            if (panel.id === "C") this.drawPanelC(g, panelHeight);
+            if (panel.id === "A") this.drawPanelA(g, panelHeight, COLOR_A);
+            if (panel.id === "B") this.drawPanelB(g, panelHeight, COLOR_B);
+            if (panel.id === "C") this.drawPanelC(g, panelHeight, COLOR_C);
         });
 
         if (window.app && window.app.isEditMode) {
@@ -55,107 +65,156 @@ const Figure4 = {
         }
     },
 
-    drawPanelA: function (g, h) {
-        const centerY = h / 2 + 10;
+    // Helper to generate mathematical waveforms (matching Python logic)
+    generateWaveform: function (type) {
+        const points = [];
+        const numPoints = 100;
+        const scaleX = 2; // Scale to fit in box
 
-        // Input: Raw Aged Spectrum
-        this.drawSpectrum(g, 100, centerY, "red", true);
-        g.append("text").attr("x", 100).attr("y", centerY + 50).text("Raw Aged Spectrum").attr("text-anchor", "middle").attr("font-size", "12px");
+        for (let i = 0; i < numPoints; i++) {
+            const x = i / 10; // 0 to 10
+            let y = 0;
 
-        // Arrow
-        this.drawArrow(g, 180, centerY, 280, centerY);
-
-        // AI Core: CNN Cube
-        g.append("rect").attr("x", 300).attr("y", centerY - 30).attr("width", 60).attr("height", 60).attr("fill", "#ddd").attr("stroke", "black");
-        g.append("rect").attr("x", 310).attr("y", centerY - 40).attr("width", 60).attr("height", 60).attr("fill", "none").attr("stroke", "black");
-        g.append("line").attr("x1", 300).attr("y1", centerY - 30).attr("x2", 310).attr("y2", centerY - 40).attr("stroke", "black");
-        g.append("line").attr("x1", 360).attr("y1", centerY + 30).attr("x2", 370).attr("y2", centerY + 20).attr("stroke", "black");
-        g.append("text").attr("x", 335).attr("y", centerY + 50).text("CNN Feature Extractor").attr("text-anchor", "middle").attr("font-size", "12px").attr("font-weight", "bold");
-        g.append("text").attr("x", 335).attr("y", centerY + 65).text("Ref: S30076").attr("text-anchor", "middle").attr("font-size", "10px").attr("fill", "gray").attr("font-style", "italic");
-
-        // Arrow
-        this.drawArrow(g, 400, centerY, 500, centerY);
-
-        // Output: Chemical Structure (Simplified)
-        g.append("hexagon"); // Placeholder for structure
-        g.append("circle").attr("cx", 550).attr("cy", centerY).attr("r", 20).attr("fill", "none").attr("stroke", "black").attr("stroke-width", 2);
-        g.append("text").attr("x", 550).attr("y", centerY).text("C=O").attr("text-anchor", "middle").attr("dy", "5px");
-        g.append("text").attr("x", 550).attr("y", centerY + 50).text("Carbonyl Index Quantified").attr("text-anchor", "middle").attr("font-size", "12px");
-
-        // Ref Arrow
-        g.append("text").attr("x", 450).attr("y", centerY - 10).text("Ref: S40158").attr("text-anchor", "middle").attr("font-size", "10px").attr("fill", "gray");
-    },
-
-    drawPanelB: function (g, h) {
-        const centerY = h / 2 + 10;
-
-        // Input: Weak Signal
-        g.append("path")
-            .attr("d", `M 80 ${centerY} q 10 2, 20 0 t 20 0`)
-            .attr("stroke", "gray")
-            .attr("fill", "none");
-        g.append("text").attr("x", 100).attr("y", centerY + 50).text("Weak Signal (<100nm)").attr("text-anchor", "middle").attr("font-size", "12px");
-
-        // Arrow
-        this.drawArrow(g, 150, centerY, 250, centerY);
-
-        // AI Core: Funnel + Neural Net
-        // Funnel
-        g.append("path").attr("d", `M 280 ${centerY - 30} L 320 ${centerY - 30} L 310 ${centerY + 30} L 290 ${centerY + 30} Z`).attr("fill", "#ddd").attr("stroke", "black");
-        // Neural Net Grid
-        for (let i = 0; i < 3; i++) {
-            for (let j = 0; j < 3; j++) {
-                g.append("circle").attr("cx", 350 + i * 15).attr("cy", centerY - 15 + j * 15).attr("r", 3).attr("fill", getColor("blue"));
+            if (type === 'aged') {
+                // 0.5 * np.exp(-(x-3)**2/0.5) + 0.3 * np.exp(-(x-7)**2/1.0) + noise
+                y = 0.5 * Math.exp(-Math.pow(x - 3, 2) / 0.5) +
+                    0.3 * Math.exp(-Math.pow(x - 7, 2) / 1.0) +
+                    0.05 * (Math.random() - 0.5);
+            } else if (type === 'weak') {
+                // 0.05 * np.exp(-(x-5)**2/0.1) + noise
+                y = 0.05 * Math.exp(-Math.pow(x - 5, 2) / 0.1) +
+                    0.05 * (Math.random() - 0.5);
+            } else if (type === 'amplified') {
+                // 0.9 * np.exp(-(x-5)**2/0.2)
+                y = 0.9 * Math.exp(-Math.pow(x - 5, 2) / 0.2);
+            } else if (type === 'mixture') {
+                // 0.6 * np.exp(-(x-4)**2/0.3) + 0.4 * np.exp(-(x-4.5)**2/0.4) + sine
+                y = 0.6 * Math.exp(-Math.pow(x - 4, 2) / 0.3) +
+                    0.4 * Math.exp(-Math.pow(x - 4.5, 2) / 0.4) +
+                    0.1 * Math.sin(x * 2);
+            } else if (type === 'comp1') {
+                y = 0.6 * Math.exp(-Math.pow(x - 4, 2) / 0.3);
+            } else if (type === 'comp2') {
+                y = 0.4 * Math.exp(-Math.pow(x - 4.5, 2) / 0.4);
             }
+
+            points.push({ x: x, y: y });
         }
-        g.append("text").attr("x", 330).attr("y", centerY + 50).text("Signal Enhancement AI").attr("text-anchor", "middle").attr("font-size", "12px").attr("font-weight", "bold");
-        g.append("text").attr("x", 330).attr("y", centerY + 65).text("Ref: S30068").attr("text-anchor", "middle").attr("font-size", "10px").attr("fill", "gray").attr("font-style", "italic");
-
-        // Glowing Arrow
-        this.drawArrow(g, 420, centerY, 520, centerY, getColor("blue"));
-
-        // Output: Amplified Signature
-        this.drawSpectrum(g, 570, centerY, getColor("blue"), false, 2); // High amplitude
-        g.append("text").attr("x", 570).attr("y", centerY + 50).text("Amplified Signature").attr("text-anchor", "middle").attr("font-size", "12px");
+        return points;
     },
 
-    drawPanelC: function (g, h) {
-        const centerY = h / 2 + 10;
+    drawWaveformPlot: function (g, x, y, w, h, type, color, label) {
+        const data = this.generateWaveform(type);
 
-        // Input: Mixed
-        this.drawSpectrum(g, 100, centerY, "purple", true); // Messy
-        g.append("text").attr("x", 100).attr("y", centerY + 50).text("Mixed Contaminants").attr("text-anchor", "middle").attr("font-size", "12px");
+        // Scales
+        const xScale = d3.scaleLinear().domain([0, 10]).range([0, w]);
+        const yScale = d3.scaleLinear().domain([0, 1]).range([h, 0]);
+
+        const line = d3.line()
+            .x(d => xScale(d.x))
+            .y(d => yScale(d.y))
+            .curve(d3.curveBasis); // Smooth curve
+
+        const plotG = g.append("g").attr("transform", `translate(${x}, ${y})`);
+
+        // Axes (minimal)
+        plotG.append("line").attr("x1", 0).attr("y1", h).attr("x2", w).attr("y2", h).attr("stroke", "black").attr("stroke-width", 1);
+        plotG.append("line").attr("x1", 0).attr("y1", 0).attr("x2", 0).attr("y2", h).attr("stroke", "black").attr("stroke-width", 1);
+
+        // Line
+        plotG.append("path")
+            .datum(data)
+            .attr("fill", "none")
+            .attr("stroke", color)
+            .attr("stroke-width", 2)
+            .attr("d", line);
+
+        // Label
+        if (label) {
+            g.append("text")
+                .attr("x", x + w / 2)
+                .attr("y", y + h + 20)
+                .text(label)
+                .attr("text-anchor", "middle")
+                .attr("font-size", "12px")
+                .attr("font-family", "Arial");
+        }
+    },
+
+    drawPanelA: function (g, h, color) {
+        const centerY = h / 2;
+
+        // 1. Input: Raw Aged Spectrum
+        this.drawWaveformPlot(g, 50, centerY - 40, 150, 80, 'aged', color, "Raw Aged Spectrum");
 
         // Arrow
-        this.drawArrow(g, 180, centerY, 280, centerY);
+        this.drawArrow(g, 220, centerY, 300, centerY);
 
-        // AI Core: Prism
-        g.append("path").attr("d", `M 300 ${centerY + 30} L 330 ${centerY - 30} L 360 ${centerY + 30} Z`).attr("fill", "none").attr("stroke", "black").attr("stroke-width", 2);
-        g.append("text").attr("x", 330).attr("y", centerY + 50).text("Blind Source Separation").attr("text-anchor", "middle").attr("font-size", "12px").attr("font-weight", "bold");
-        g.append("text").attr("x", 330).attr("y", centerY + 65).text("Ref: S30060").attr("text-anchor", "middle").attr("font-size", "10px").attr("fill", "gray").attr("font-style", "italic");
+        // 2. Process: CNN Box
+        g.append("rect").attr("x", 320).attr("y", centerY - 40).attr("width", 100).attr("height", 80).attr("fill", "#ddd").attr("stroke", "black");
+        g.append("text").attr("x", 370).attr("y", centerY).text("CNN Model").attr("text-anchor", "middle").attr("font-weight", "bold").attr("font-size", "14px");
+        g.append("text").attr("x", 370).attr("y", centerY + 20).text("Feature Extraction").attr("text-anchor", "middle").attr("font-size", "10px").attr("font-style", "italic");
+
+        // Arrow
+        this.drawArrow(g, 440, centerY, 520, centerY);
+
+        // 3. Output: Index
+        g.append("circle").attr("cx", 580).attr("cy", centerY).attr("r", 40).attr("fill", "white").attr("stroke", "black");
+        g.append("text").attr("x", 580).attr("y", centerY - 5).text("Carbonyl Index").attr("text-anchor", "middle").attr("font-size", "10px");
+        g.append("text").attr("x", 580).attr("y", centerY + 15).text("(C=O) ≈ 0.85").attr("text-anchor", "middle").attr("font-weight", "bold");
+    },
+
+    drawPanelB: function (g, h, color) {
+        const centerY = h / 2;
+
+        // 1. Input: Weak Signal
+        this.drawWaveformPlot(g, 50, centerY - 40, 150, 80, 'weak', 'gray', "Weak Signal (<SNR 2)");
+
+        // Arrow
+        this.drawArrow(g, 220, centerY, 300, centerY);
+
+        // 2. Process: Denoising Autoencoder (Trapezoid)
+        const trapPoints = [
+            { x: 320, y: centerY - 40 }, { x: 420, y: centerY - 40 }, // Top
+            { x: 400, y: centerY + 40 }, { x: 340, y: centerY + 40 }  // Bottom
+        ];
+        const line = d3.line().x(d => d.x).y(d => d.y);
+        g.append("path").attr("d", line(trapPoints) + "Z").attr("fill", "#ddd").attr("stroke", "black");
+        g.append("text").attr("x", 370).attr("y", centerY + 5).text("Denoising").attr("text-anchor", "middle").attr("font-size", "12px");
+        g.append("text").attr("x", 370).attr("y", centerY + 20).text("Autoencoder").attr("text-anchor", "middle").attr("font-size", "12px");
+
+        // Arrow
+        this.drawArrow(g, 440, centerY, 520, centerY);
+
+        // 3. Output: Amplified
+        this.drawWaveformPlot(g, 540, centerY - 40, 150, 80, 'amplified', color, "Recovered Signature");
+    },
+
+    drawPanelC: function (g, h, color) {
+        const centerY = h / 2;
+
+        // 1. Input: Mixture
+        this.drawWaveformPlot(g, 50, centerY - 40, 150, 80, 'mixture', 'purple', "Mixed Contaminants");
+
+        // Arrow
+        this.drawArrow(g, 220, centerY, 300, centerY);
+
+        // 2. Process: Separation Triangle
+        const triPoints = [
+            { x: 320, y: centerY + 40 }, { x: 370, y: centerY - 40 }, { x: 420, y: centerY + 40 }
+        ];
+        const line = d3.line().x(d => d.x).y(d => d.y);
+        g.append("path").attr("d", line(triPoints) + "Z").attr("fill", "#ddd").attr("stroke", "black");
+        g.append("text").attr("x", 370).attr("y", centerY + 20).text("Blind Source").attr("text-anchor", "middle").attr("font-size", "10px");
+        g.append("text").attr("x", 370).attr("y", centerY + 35).text("Separation").attr("text-anchor", "middle").attr("font-size", "10px");
 
         // Split Arrows
-        g.append("line").attr("x1", 380).attr("y1", centerY).attr("x2", 450).attr("y2", centerY - 30).attr("stroke", "black").attr("marker-end", "url(#arrow)");
-        g.append("line").attr("x1", 380).attr("y1", centerY).attr("x2", 450).attr("y2", centerY + 30).attr("stroke", "black").attr("marker-end", "url(#arrow)");
+        this.drawArrow(g, 430, centerY, 500, centerY - 50);
+        this.drawArrow(g, 430, centerY, 500, centerY + 50);
 
-        // Output: Separated
-        this.drawSpectrum(g, 500, centerY - 30, getColor("green"), false);
-        g.append("text").attr("x", 500).attr("y", centerY - 10).text("Pure MP Signal").attr("text-anchor", "middle").attr("font-size", "10px");
-
-        this.drawSpectrum(g, 500, centerY + 30, "brown", false);
-        g.append("text").attr("x", 500).attr("y", centerY + 50).text("Organic Matter").attr("text-anchor", "middle").attr("font-size", "10px");
-    },
-
-    drawSpectrum: function (g, x, y, color, noisy, scale = 1) {
-        const points = [];
-        for (let i = 0; i < 50; i++) {
-            let val = Math.sin(i * 0.2) * 10 * scale;
-            if (noisy) val += (Math.random() - 0.5) * 5;
-            if (i > 20 && i < 30) val -= 20 * scale; // Peak
-            points.push([x - 25 + i, y + val]);
-        }
-        const line = d3.line().curve(d3.curveBasis);
-        g.append("path").attr("d", line(points)).attr("stroke", color).attr("fill", "none").attr("stroke-width", 1.5);
+        // 3. Output: Separated
+        this.drawWaveformPlot(g, 520, centerY - 90, 120, 60, 'comp1', color, "Component 1 (MP)");
+        this.drawWaveformPlot(g, 520, centerY + 10, 120, 60, 'comp2', 'brown', "Component 2 (Bio)");
     },
 
     drawArrow: function (g, x1, y1, x2, y2, color = "black") {
@@ -177,7 +236,7 @@ const Figure4 = {
             .attr("x2", x2)
             .attr("y2", y2)
             .attr("stroke", color)
-            .attr("stroke-width", 2)
+            .attr("stroke-width", 1.5)
             .attr("marker-end", "url(#arrow)");
     },
 
@@ -189,3 +248,4 @@ const Figure4 = {
             });
     }
 };
+
