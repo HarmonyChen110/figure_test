@@ -1,0 +1,3175 @@
+[
+  {
+    "sop_metadata": "S20002",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of existing microplastic extraction methods, explicitly identifying limitations in device complexity, operational costs, and flotation liquid selection. The authors discuss specific challenges with current devices being 'relatively complex and require special customization, resulting in high processing costs' and 'require multiple operational steps for complete separation, which are labor-intensive and time-consuming.' The paper also critically evaluates flotation liquids, noting trade-offs between environmental impact and operational costs."
+    },
+    "bibliometric": {
+      "paper_id": "Li et al. - 2021",
+      "title": "A commonly available and easily assembled device for extraction of bionon-degradable microplastics from soil by flotation in NaBr solution",
+      "authors": [
+        "Chengtao Li",
+        "Qian Cui",
+        "Min Zhang",
+        "Rolf D.Vogt",
+        "Xueqiang Lu"
+      ],
+      "journal": "Elsevier Journal",
+      "publication_year": 2021,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Li et al. - 2021-C1",
+        "module_title": "Complexity and Cost of Existing Microplastic Extraction Devices",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitations are explicitly stated in the introduction section with specific critique of multiple devices."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Various extraction devices (MPSS, elutriation column, SMI unit, JAMSS unit, etc.)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Cost and Complexity",
+              "description_of_challenge": "Most existing devices are relatively complex and require special customization, resulting in high processing costs.",
+              "verbatim_quote_of_challenge": "Most of the abovementioned devices are relatively complex and require special customization, resulting in high processing costs.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Labor-Intensiveness",
+              "description_of_challenge": "Some devices require multiple operational steps for complete separation, which are labor-intensive and time-consuming.",
+              "verbatim_quote_of_challenge": "Furthermore, some devices require multiple operational steps for complete separation, which are labor-intensive and time-consuming.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Environmental Impact",
+              "description_of_challenge": "The use of large volumes of flotation liquid requires high operational costs and poses an environmental challenge.",
+              "verbatim_quote_of_challenge": "Moreover, the use of large volumes of flotation liquid requires high operational costs and an environmental challenge.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Li et al. - 2021-C2",
+        "module_title": "Limitations in Flotation Liquid Selection for Microplastic Extraction",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 92,
+          "justification": "The limitations are explicitly stated with detailed discussion of trade-offs between environmental impact and operational costs."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Various flotation liquids (distilled water, NaCl, NaBr, etc.)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Density Limitation",
+              "description_of_challenge": "Lower density flotation liquids such as distilled water are too light to be suitable for the extraction of high-density microplastics.",
+              "verbatim_quote_of_challenge": "Lower density flotation liquids such as distilled water... are low cost, but they are too light in order to be suitable for the extraction of high-density microplastics.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Environmental Impact vs. Operational Cost Trade-off",
+              "description_of_challenge": "An applicable method for extraction requires balancing environmental impact and operational costs, which depends partly on the stability of the flotation solution.",
+              "verbatim_quote_of_challenge": "An applicable method for extraction of microplastics from soils using the flotation principle requires the consideration and balance of environmental impact and operational costs, which both depends partly on the stability of the flotation solution.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "Li et al. (2021) identifies two critical challenge modules in terrestrial microplastic analysis. First, existing extraction devices (MPSS, elutriation columns, SMI units, etc.) are criticized for being complex, requiring special customization (high processing costs), involving multiple operational steps (labor-intensive and time-consuming), and requiring large volumes of flotation liquid (high operational costs with environmental challenges). Second, the paper highlights limitations in flotation liquid selection, noting that lower density liquids like distilled water cannot extract high-density microplastics, and emphasizes the need to balance environmental impact against operational costs. These challenges led the authors to develop a new simplified device using NaBr solution that addresses these limitations through common laboratory instruments, reusability, and environmental friendliness."
+  },
+  {
+    "sop_metadata": "S20003",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of the limitations of various extraction reagents for soil microplastic analysis, including specific challenges with density separation methods using NaCl, CaCl2, ZnCl2, and NaI."
+    },
+    "bibliometric": {
+      "paper_id": "Liu et al. - 2019",
+      "title": "A method for extracting soil microplastics through circulation of sodium bromide solutions",
+      "authors": [
+        "Mengting Liu",
+        "Yang Song",
+        "Shibo Lu",
+        "Rong Qiu",
+        "Jiani Hu",
+        "Xinyu Li",
+        "Moritz Bigalke",
+        "Huahong Shi",
+        "Defu He"
+      ],
+      "journal": "Science of The Total Environment",
+      "publication_year": 2019,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Liu et al. - 2019-C1",
+        "module_title": "General Limitations of Current Soil Microplastic Extraction Methods",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The limitations are clearly described in the introduction but not in a dedicated 'limitations' section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Various density separation methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "Some existing methods are not suitable to detect all different types of microplastics and are generally time-consuming and costly",
+              "verbatim_quote_of_challenge": "Many of these methods have disadvantages. Some of them are not suitable to detect all different types of MP and generally they are rather time-consuming and costly.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Liu et al. - 2019-C2",
+        "module_title": "Limitations of Sodium Chloride (NaCl) Solution for Density Separation",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 88,
+          "justification": "The limitation is explicitly stated in the introduction but not in a dedicated 'limitations' section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Sodium chloride (NaCl) solution",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "Cannot separate high density plastics such as PET or PVC because of its low density",
+              "verbatim_quote_of_challenge": "Saturated solutions of NaCl were widely used to extract MP from various environmental matrices, because it is cheap and non-toxic. However, this method could not separate high density plastics such as PET or PVC because of its low density (Liu et al., 2018; Scheurer and Bigalke, 2018; Zhou et al., 2018).",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Liu et al. - 2019-C3",
+        "module_title": "Limitations of Calcium Chloride (CaCl2) Solution for Density Separation",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The limitation is clearly described in the introduction but not in a dedicated 'limitations' section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Calcium chloride (CaCl2) solution",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "Calcium ions may react with organic matter, and the density might still be too low to allow separating all kinds of microplastics",
+              "verbatim_quote_of_challenge": "The separation efficiency of CaCl2 is better than that of NaCl, but calcium ions may react with organic matter (Scheurer and Bigalke, 2018) and the density might still be too low to allow separating all kinds of MP.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Liu et al. - 2019-C4",
+        "module_title": "Limitations of Zinc Chloride (ZnCl2) and Sodium Iodide (NaI) Solutions for Density Separation",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 87,
+          "justification": "The limitations are explicitly described in the introduction but not in a dedicated 'limitations' section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Zinc chloride (ZnCl2) and sodium iodide (NaI) solutions",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "Relatively high cost, hazardous to the environment, embryo-toxic to aquatic organisms, and ZnCl2 is corrosive",
+              "verbatim_quote_of_challenge": "ZnCl2 and especially NaI are relatively high cost salts, what might cause economic restrictions for researchers analyzing higher numbers of samples (Table S1). Additionally, ZnCl2 and NaI are hazardous to the environment and especially embryo-toxic to aquatic organisms (Crichton et al., 2017), and ZnCl2 is corrosive, which complicates the handling of the chemical considerably.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This paper identifies key challenges in soil microplastic extraction methods, particularly focusing on density separation techniques. The authors critically evaluate four common extraction reagents: NaCl, CaCl2, ZnCl2, and NaI, highlighting their respective limitations. NaCl cannot separate high density plastics like PET or PVC due to its low density. CaCl2 may react with organic matter and still might not have sufficient density for all MP types. ZnCl2 and NaI are high-cost and environmentally hazardous, with ZnCl2 being corrosive. The paper demonstrates that existing methods have significant limitations in efficiency, cost-effectiveness, and environmental impact, providing justification for the development of alternative methods like the NaBr solution circulation method proposed in the study."
+  },
+  {
+    "sop_metadata": "S20004",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a critical assessment of the limitations in microplastic analysis methods, including inconsistent definitions, lack of standardization in separation methods, and unrealistic experimental conditions for biological effects assessment."
+    },
+    "bibliometric": {
+      "paper_id": null,
+      "title": "A review of microplastics in sediments: Spatial and temporal occurrences, biological effects, and analytic methods",
+      "authors": [
+        "Yao, Piao",
+        "Zhou, Bin",
+        "Lu, YueHan",
+        "Yin, Yong",
+        "Zong, YongQiang",
+        "Chen, Min-Te",
+        "O'Donnell, Zachary"
+      ],
+      "journal": null,
+      "publication_year": 2019,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Yao-et-al-2019-C1",
+        "module_title": "Inconsistent Definition of Microplastics",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the definition inconsistencies with specific size thresholds in Section 2."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "Microplastic Definition",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "No clear, universally accepted definition of microplastics exists, with different size thresholds (≤5 mm or ≤1 mm) used by different researchers.",
+              "verbatim_quote_of_challenge": "Despite the increasing research attention on microplastics, there is still much ambiguity in the definition of microplastics. For instance, microplastics may be defined as plastic particle sizes ≤ 5 mm (ErniCassola et al., 2017; Machado et al., 2018) or ≤ 1 mm (Browne et al., 2011; Marka et al., 201O).",
+              "source": "Section 2 (Brief research history and definitions of microplastics)"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Yao-et-al-2019-C2",
+        "module_title": "Lack of Standardization in Separation Methods",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion",
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the lack of standardization across laboratories in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Separation",
+          "technique_or_method": "Density Separation Method",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "The density separation method, the most commonly used for separating microplastics in sediments, is not standardized across laboratories.",
+              "verbatim_quote_of_challenge": "Density separation method for separation of microplastics in sediments is the most commonly used, and component identification by optical analysis (Fourier-transform infrared spectroscopy spectra, Raman spectra etc.) are important analytic methods. Yet the separation method remains to be standardized across laboratories.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Yao-et-al-2019-C3",
+        "module_title": "Unrealistic Experimental Conditions for Biological Effects Assessment",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the use of unrealistic concentration and limited forms in laboratory experiments in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "Biological Effects Assessment",
+          "identified_challenges": [
+            {
+              "challenge_type": "Experimental Design Limitation",
+              "description_of_challenge": "Current understanding of biological effects is based on experiments using unrealistic concentration and limited forms of microplastics, which may not reflect real environmental conditions.",
+              "verbatim_quote_of_challenge": "Our current understanding of biological effects of microplastics is based mainly on field research and laboratory-scale experiments using unrealistic concentration and limited forms of microplastics.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Yao-et-al-2019-C4",
+        "module_title": "Inefficient Separation Methods Requiring Combination",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion",
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the need for combining multiple separation methods in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Separation",
+          "technique_or_method": "Separation Methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "The current separation methods (density separation, electrostatic separation, organic solvent extraction, and magnet separation) are not efficient enough on their own and need to be combined to improve separation efficiency.",
+              "verbatim_quote_of_challenge": "Other separation methods include electrostatics separation, organic solvent extraction and magnet separation. We recommend the combination of density separation, electrostatic separation and organic solvent separation to improve the separation efficiency of microplastics and to standardize the analytic process for sediment microplastics in future studies.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review paper identifies several critical challenges in terrestrial microplastic analysis methods. First, there is a lack of standardized definition for microplastics, with researchers using different size thresholds (≤5 mm or ≤1 mm). Second, the commonly used density separation method lacks standardization across laboratories. Third, current biological effects assessments rely on experiments with unrealistic microplastic concentrations and limited forms that don't reflect environmental conditions. Finally, existing separation methods require combination (density separation, electrostatic separation, and organic solvent extraction) to improve efficiency and standardize the analytical process. These challenges highlight the need for standardized protocols and environmentally relevant experimental designs in future microplastic research."
+  },
+  {
+    "sop_metadata": "S20005",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of the limitations of traditional microplastic detection methods, explicitly mentioning challenges with standardization, laborious separation processes, method variability, and inefficiency of detection and counting."
+    },
+    "bibliometric": {
+      "paper_id": "Li et al. - 2021 - An effective method for the rapid detection of microplastics in soil",
+      "title": "An effective method for the rapid detection of microplastics in soil",
+      "authors": [
+        "Yanhui Li",
+        "Jiangjun Yao",
+        "Pengcheng Nie",
+        "Xuping Feng",
+        "Jizan Liu"
+      ],
+      "journal": null,
+      "publication_year": 2021,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Li2021-C1",
+        "module_title": "Lack of Standardized Methods for Microplastic Detection",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the lack of standardized methods as an obstacle to research in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance and Control",
+          "technique_or_method": "General methodological framework",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "No standardized method exists for identifying and quantifying microplastics in soil, creating an obstacle to research.",
+              "verbatim_quote_of_challenge": "The lack of standardized method to identify and quantify microplastics in the soil is an obstacle to research.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Li2021-C2",
+        "module_title": "Laborious Separation and Extraction Processes",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 98,
+          "justification": "The paper explicitly states the laborious nature of separation and extraction processes in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment and Digestion",
+          "technique_or_method": "Traditional microplastic detection methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Laborious Processes",
+              "description_of_challenge": "Traditional methods require laborious separation and extraction operations of suspicious plastic particles before qualitative and quantitative detection.",
+              "verbatim_quote_of_challenge": "Although these methods have the advantage of high accuracy, before the qualitative and quantitative detection of microplastics, it is usually necessary to perform laborious separation and extraction operations of suspicious plastic particles.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Li2021-C3",
+        "module_title": "Lack of Uniform Separation Methods",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 98,
+          "justification": "The paper explicitly states the lack of uniform separation methods in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation and Filtration",
+          "technique_or_method": "Traditional microplastic detection methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Method Variability",
+              "description_of_challenge": "There is no uniform and mature microplastic separation and extraction method, with different methods causing variations in results.",
+              "verbatim_quote_of_challenge": "At present, there is no uniform and mature microplastic separation and extraction method, and different separation and extraction methods may cause differences in the results.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Li2021-C4",
+        "module_title": "Inefficiency of Fragment Detection and Counting",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the inefficiency of detection and counting in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification and Quantification",
+          "technique_or_method": "Traditional microplastic detection methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "Each suspicious plastic fragment needs to be detected and counted after extraction, making the process unsuitable for large-scale sample testing.",
+              "verbatim_quote_of_challenge": "Additionally, each suspicious plastic fragment needs to be detected and counted after extraction. Due to the complexity of the operation process, these methods are not suitable for large-scale sample testing.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "Challenge Summary for Li et al. (2021):\n- Quality Assurance and Control: The paper identifies a lack of standardized methods as a key obstacle to microplastic research.\n- Pre-treatment and Digestion: Traditional methods require laborious separation and extraction operations before detection.\n- Separation and Filtration: No uniform and mature separation methods exist, causing result variations.\n- Identification and Quantification: The need to detect and count each fragment makes traditional methods inefficient and unsuitable for large-scale testing."
+  },
+  {
+    "sop_metadata": "S20006",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a detailed, critical assessment of the challenges and limitations in terrestrial microplastic analysis methods, particularly in extraction, impurity removal, and identification."
+    },
+    "bibliometric": {
+      "paper_id": "Qi2020",
+      "title": "Behavior of microplastics and plastic film residues in the soil environment: A critical review",
+      "authors": [
+        "Qi Ruimin",
+        "Davey L. Jones",
+        "Li Zhen",
+        "Liu Qin",
+        "Yan Changrong"
+      ],
+      "journal": "Science of the Total Environment",
+      "publication_year": 2020,
+      "doi": "https://doi.org/10.1016/j.scitotenv.2019.134722"
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Qi2020-C1",
+        "module_title": "Challenges in Microplastic Extraction from Soil",
+        "chapter_tags": [
+          "Separation_And_Filtration",
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states multiple limitations of extraction methods in Section 3 with clear examples and citations."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Separation",
+          "technique_or_method": "Extraction methods (air flotation, heating, density suspension)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Reproducibility and Efficiency",
+              "description_of_challenge": "The recovery rate is often not reproducible and extraction efficiency is low, making quantitative analysis difficult.",
+              "verbatim_quote_of_challenge": "Notable problems with these approaches, however, include: (i) the recovery rate is often not reproducible and the extraction efficiency is low;",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Spatial Heterogeneity",
+              "description_of_challenge": "It is difficult to capture the high degree of spatial heterogeneity in soil plastic contamination, leading to unrepresentative samples.",
+              "verbatim_quote_of_challenge": "it is difficult to capture the high degree of spatial heterogeneity in soil plastic contamination;",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Size Limitation",
+              "description_of_challenge": "Current methods are not designed to capture nano- and picoplastic particles, limiting comprehensive analysis of the full size spectrum.",
+              "verbatim_quote_of_challenge": "current methods are not designed to capture nano- and picoplastic particles;",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Scalability",
+              "description_of_challenge": "The heating method is not feasible for large numbers of samples and cannot readily detect the quantity and size of microplastics, which is not suitable for the analysis of samples in complex environments.",
+              "verbatim_quote_of_challenge": "the heating method is not feasible for large numbers of samples and cannot readily detect the quantity and size of microplastics, which is not suitable for the analysis of samples in complex environments;",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Method Validation",
+              "description_of_challenge": "The density suspension method is commonly used for sediment and sludge but its suitability in soil remains to be validated, creating uncertainty in extraction protocols.",
+              "verbatim_quote_of_challenge": "the density suspension method is a common method to extract microplastics from sediment and sludge, but its suitability in soil remains to be validated.",
+              "source": "Section 3"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Qi2020-C2",
+        "module_title": "Challenges in Impurity Removal from Microplastic Samples",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states limitations of impurity removal methods with specific examples in Section 3."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Impurity removal methods (acid digestion, alkali digestion, enzyme digestion, chemical oxidation)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Material Compatibility",
+              "description_of_challenge": "Some plastics react with strong acids or alkali, potentially altering or destroying the microplastics during the digestion process.",
+              "verbatim_quote_of_challenge": "some plastics react with strong acids or alkali;",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Scalability and Cost",
+              "description_of_challenge": "Enzymatic digestion is not feasible for large numbers of samples and/or large-volume samples, due to prohibitive costs and is very poor at removing stable organic matter.",
+              "verbatim_quote_of_challenge": "enzymatic digestion is not feasible for large numbers of samples and/or large-volume samples, due to prohibitive costs and is very poor at removing stable organic matter;",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Co-contaminant Removal",
+              "description_of_challenge": "The impact of wet oxidation on microplastics and the potential to inadvertently remove co-contaminants (e.g. plasticizers) remains to be verified, creating uncertainty in risk assessment.",
+              "verbatim_quote_of_challenge": "the impact of wet oxidation on microplastics and the potential to inadvertently remove co-contaminants (e.g. plasticizers) remains to be verified.",
+              "source": "Section 3"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Qi2020-C3",
+        "module_title": "Challenges in Preventing Sample Contamination",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The paper discusses contamination issues with specific recommendations but does not have a dedicated limitations section for this challenge."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "Sample collection and handling protocols",
+          "identified_challenges": [
+            {
+              "challenge_type": "Sample Collection Contamination",
+              "description_of_challenge": "Collection of samples in plastic materials can lead to contamination, requiring careful selection of collection materials to avoid introducing external microplastics.",
+              "verbatim_quote_of_challenge": "It is recommended that collection of samples in plastic materials be avoided where possible to minimize contamination (Koelmans et al., 2019).",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Laboratory Contamination",
+              "description_of_challenge": "Contamination of samples in the laboratory due to airborne polymer particles and fibers has been described as a major problem in microplastic analysis, requiring controlled environments.",
+              "verbatim_quote_of_challenge": "contamination of samples in the laboratory due to airborne polymer particles and fibres has been described as a major problem in microplastic analysis (Torre et al., 2016).",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Quality Control",
+              "description_of_challenge": "Adequate negative controls (blanks) should be included to demonstrate absence of contamination during sample processing, but implementation is challenging across all analytical steps.",
+              "verbatim_quote_of_challenge": "Further, adequate negative controls (blanks) should be included to demonstrate absence of contamination during sample processing (e.g. during sieving, filtration, digestion, transfer and analytical identification steps; Hermsen et al., 2018).",
+              "source": "Section 3"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Qi2020-C4",
+        "module_title": "Challenges in Microplastic Identification and Quantification",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states limitations of identification methods with clear examples and citations in Section 3."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Visual screening, stereoscopic microscopy, SEM, FTIR, and Raman spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Size Limitation",
+              "description_of_challenge": "Visual methods are difficult for identifying small plastic particles, leading to potential underestimation or overestimation of microplastic abundance in ecological environments.",
+              "verbatim_quote_of_challenge": "The visual method is also used to detect microplastics, but it is difficult to identify small plastic particles, and underestimation or overestimation of the abundance of microplastics in the ecological environment is likely to occur (Song et al., 2015; Shim et al., 2017).",
+              "source": "Section 3"
+            },
+            {
+              "challenge_type": "Method Limitations",
+              "description_of_challenge": "Microscopy methods (including SEM) are primarily used for quantification but may miss smaller particles, while spectroscopic methods (FTIR and Raman) are better for qualitative assessment but have their own limitations.",
+              "verbatim_quote_of_challenge": "In the assessment process, FTIR and Raman spectroscopy have been applied for qualitative assessments, while microscopy, including SEM, has been used for the quantification of microplastics (Qiu et al., 2016; Scheurer and Bigalke, 2018; Song et al., 2015; Zhou et al., 2018).",
+              "source": "Section 3"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review paper critically examines the challenges in terrestrial microplastic analysis methods. Four key challenge modules were identified: (1) Extraction method limitations (reproducibility issues, spatial heterogeneity challenges, size limitations for nano/picoplastics, scalability problems, and unvalidated methods for soil); (2) Impurity removal challenges (material compatibility issues, scalability/cost constraints of enzymatic methods, and unverified effects on co-contaminants); (3) Sample contamination issues (during collection and laboratory processing, requiring stringent quality control); and (4) Identification method limitations (size constraints of visual methods and complementary strengths/weaknesses of microscopy vs. spectroscopy). The paper explicitly states these challenges in Section 3 with high confidence, providing verbatim evidence for each limitation. This analysis confirms the need for standardized methods, improved quality control, and better techniques for nano-scale detection in terrestrial microplastic research."
+  },
+  {
+    "sop_metadata": "S20007",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper explicitly describes limitations in current techniques for quantifying microplastic loads in soil samples, including challenges in separating microplastics from soil minerals, lack of consistent protocols, and issues with result comparability across studies."
+    },
+    "bibliometric": {
+      "paper_id": "Jazaei2022",
+      "title": "Can Microplastic Pollution Change Soil-Water Dynamics? Results from Controlled Laboratory Experiments",
+      "authors": [
+        "Farhad Jazaei",
+        "Tareq Jamal Chy",
+        "Maryam Salehi"
+      ],
+      "journal": "Not specified in provided HTML",
+      "publication_year": 2022,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Jazaei2022-C1",
+        "module_title": "Challenges in Microplastic Quantification Methods",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states limitations in a dedicated section discussing environmentally relevant levels of MP pollution with clear quotes and specific challenges."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "MP Quantification",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inconsistent Methodology",
+              "description_of_challenge": "No effective and consistent protocols or guidelines are available for measuring the MP/soil mass ratio (λ) in the environment, making most results reported in the literature not comparable.",
+              "verbatim_quote_of_challenge": "Currently, no effective and consistent protocols or guidelines are available for measuring λ in the environment; therefore, most results reported in the literature are not comparable.",
+              "source": "Section 2.2, Environmentally Relevant Levels of MP Pollution"
+            },
+            {
+              "challenge_type": "Incompatible Metrics",
+              "description_of_challenge": "Many authors report MP pollution using counts of MP items per unit weight or volume of soil, which cannot be converted to mass- or volume-based values for proper comparison.",
+              "verbatim_quote_of_challenge": "Moreover, many authors reported MP pollution using counts in terms of MP items per unit weight or volume of soil, which cannot be converted to mass- or volume-based values [57].",
+              "source": "Section 2.2, Environmentally Relevant Levels of MP Pollution"
+            },
+            {
+              "challenge_type": "Separation Difficulty",
+              "description_of_challenge": "MP quantification is challenging, costly, and time-consuming because MPs must be fully separated from soil minerals including fine clay and silt particles that resist separation processes.",
+              "verbatim_quote_of_challenge": "The main reason is that current techniques for quantifying MP loads in soil samples are quite challenging, costly, and timeconsuming. MP quantification includes two main steps: first, MP must be fully separated from the soil minerals, including fine clay and silt particles that may resist separation processes; then, the separated MP must be quantified by counting or weighing or else by estimating their volume.",
+              "source": "Section 2.2, Environmentally Relevant Levels of MP Pollution"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "Jazaei et al. (2022) identified significant challenges in microplastic (MP) quantification methods for soil samples. The authors highlighted that current techniques are challenging, costly, and time-consuming due to difficulties in fully separating MPs from soil minerals, particularly fine clay and silt particles. The paper specifically noted the lack of consistent protocols for measuring the MP/soil mass ratio (λ), resulting in non-comparable results across studies. Additionally, the authors pointed out that many studies report MP pollution using counts per unit weight or volume, which cannot be converted to mass- or volume-based values, further complicating standardization and comparison of research findings. These limitations were explicitly discussed in the section on environmentally relevant levels of MP pollution, with clear verbatim quotes detailing the specific challenges in the pre-treatment and digestion workflow stage."
+  },
+  {
+    "sop_metadata": "S20012",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This original research paper provides a critical assessment of density separation techniques for microplastic extraction from sediments, explicitly discussing limitations such as clogging problems, contamination risk, and instrument cost. The paper proposes a method modification to address these challenges and validates it with experimental results, making it suitable for challenge-focused extraction."
+    },
+    "bibliometric": {
+      "paper_id": "Wazne_2024_Optimization_glass_separating_funnels",
+      "title": "Optimization of glass separating funnels to facilitate microplastic extraction from sediments",
+      "authors": [
+        "Mohammad Wazne",
+        "Florian Mermillod-Blondin",
+        "Manon Vallier",
+        "Stefan Krause",
+        "Nans Barthélémy",
+        "Laurent Simon"
+      ],
+      "journal": "MethodsX",
+      "publication_year": 2024,
+      "doi": "10.1016/j.mex.2023.102540"
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Wazne_2024-C1",
+        "module_title": "Clogging problems in density separation units",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The clogging problem is explicitly stated and described in detail in the method modification section, with a clear explanation of how the design flaw causes the issue."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Conical shape glass separating funnels with taps",
+          "identified_challenges": [
+            {
+              "challenge_type": "Filtration Efficiency",
+              "description_of_challenge": "The tap with a 0.2 cm pore size opening causes frequent clogging, making it difficult to manipulate the funnel and process sediment samples effectively.",
+              "verbatim_quote_of_challenge": "the presence of a tap with a 0.2 cm pore size opening that allows the passage of the funnel content (i.e, sediments and liquids) makes it difficult to manipulate and cause frequent clogging.",
+              "source": "Method details section"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Wazne_2024-C2",
+        "module_title": "Sediment disturbance during separation process",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 92,
+          "justification": "The sediment disturbance issue is clearly described in the method details section as a direct consequence of the clogging problem."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Conical shape glass separating funnels with taps",
+          "identified_challenges": [
+            {
+              "challenge_type": "Sediment Processing",
+              "description_of_challenge": "Clogging problems result in disturbance of the sediments after they have settled, making it harder to separate microplastic particles from the sediment, which is the main aim of the entire separation step.",
+              "verbatim_quote_of_challenge": "This, in turn, results in disturbance of the sediments after they have settled, which makes it harder to separate microplastic particles from the sediment, which is the main aim of the entire separation step.",
+              "source": "Method details section"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Wazne_2024-C3",
+        "module_title": "Contamination risk from plastic components",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The contamination risk is explicitly stated in the abstract as one of the key limitations of existing instruments."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Existing density separation instruments",
+          "identified_challenges": [
+            {
+              "challenge_type": "Contamination Risk",
+              "description_of_challenge": "The use of plastic components in density separation devices creates elevated contamination risk, which is a critical issue when analyzing microplastics.",
+              "verbatim_quote_of_challenge": "difficulty in handling, or/and the potential for elevated contamination risk due to their plastic composition.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Wazne_2024-C4",
+        "module_title": "High cost of existing separation instruments",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The high cost limitation is explicitly stated in the abstract as one of the instrument-specific limitations."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Existing density separation instruments",
+          "identified_challenges": [
+            {
+              "challenge_type": "Cost Efficiency",
+              "description_of_challenge": "Existing instruments for density separation of microplastics from sediments are noted to have high costs, limiting accessibility for some researchers.",
+              "verbatim_quote_of_challenge": "However, instrument specific limitations have been noted, including their high cost",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Wazne_2024-C5",
+        "module_title": "Sediment-dependent recovery efficiency",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The sediment dependency of recovery efficiency is mentioned in the abstract as an important limitation for future studies, though it's presented as a recommendation for future research rather than a detailed critique of current methods."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Density separation methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Method Reliability",
+              "description_of_challenge": "Recovery efficiency for microplastic extraction may be sediment-dependent, meaning the method may not work equally well across different sediment types.",
+              "verbatim_quote_of_challenge": "Based on these promising results, future studies should consider naturally diverse substrates, as recovery efficiency may be sediment-dependent.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper by Wazne et al. (2024) critically examines density separation methods for microplastic extraction from sediments, identifying several key limitations. The authors highlight clogging problems in existing conical glass separating funnels with taps, noting that the 0.2 cm pore size opening causes frequent clogging that makes manipulation difficult (C1). This clogging also results in disturbance of sediments after settling, making microplastic separation harder (C2). The paper also identifies high instrument costs (C4) and contamination risks from plastic components (C3) as limitations of existing equipment. Additionally, the authors note that recovery efficiency may be sediment-dependent, requiring consideration of diverse substrates in future studies (C5). The researchers address these challenges by modifying glass separating funnels with silicone tubes and Mohr clamps, which mitigated clogging problems and achieved a 90% recovery rate in their experiments."
+  },
+  {
+    "sop_metadata": "S20013",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a critical assessment of the lack of standardization in plastic debris sampling and identification methods, which hinders comparison between reports."
+    },
+    "bibliometric": {
+      "paper_id": "Ronda2021",
+      "title": "Plastic Impacts in Argentina: a Critical Research Review Contributing to the Global Knowledge",
+      "authors": [
+        "Ana C Ronda",
+        "Andrés H. Arias",
+        "Guido N. Rimondino",
+        "Analia F. Pérez",
+        "Agustin Harte",
+        "Jorge E. Marcovecchio"
+      ],
+      "journal": null,
+      "publication_year": 2021,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Ronda2021-C1",
+        "module_title": "Lack of Standardized Procedures for Plastic Debris Analysis",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The lack of standardization is explicitly stated in both the abstract and methodology section as a major limitation hindering comparison between reports."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "Standardization of methodologies",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "The absence of standardized procedures for plastic debris sampling and identification leads to huge variation in methodologies used across studies.",
+              "verbatim_quote_of_challenge": "a huge variation of sampling, processing, and characterization methodologies was found as there is no standardized procedure for plastic debris sampling and identification",
+              "source": "Sampling and Identification Methods Used in Argentina section"
+            },
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "The lack of standardization in methodology and unit expression in studies of sediment microplastics hinders comparison between reports.",
+              "verbatim_quote_of_challenge": "There was a lack of standardization in methodology and unit expresson in studies of sediment microplastics, which hinders comparison between reports.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Ronda2021-C2",
+        "module_title": "Inadequate Chemical Characterization in Microplastic Studies",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitation of insufficient chemical characterization is explicitly stated in the quantification section, noting that only 30% of publications included chemical characterization."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Visual sorting and chemical characterization",
+          "identified_challenges": [
+            {
+              "challenge_type": "Insufficient Characterization",
+              "description_of_challenge": "Only 30% of publications included a form of chemical characterization of the identified plastic.",
+              "verbatim_quote_of_challenge": "Only 30% of publications (from the last 4 years) included a form of chemical characterization of the identified plastic.",
+              "source": "Plastic Particle Quantification and Identification section"
+            },
+            {
+              "challenge_type": "Inaccurate Visual Sorting",
+              "description_of_challenge": "Visual sorting alone can lead to mis-, over-, or underestimations of plastic particles, requiring further characterization for accurate assessment.",
+              "verbatim_quote_of_challenge": "Although careful and trained visual sorting is an obligatory step, nowadays, further characterization is required to assess the total number of plastic particles, avoiding mis-, over-, or underestimations.",
+              "source": "Plastic Particle Quantification and Identification section"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review paper identifies critical challenges in terrestrial MNP analysis methods used in Argentina. The primary challenge is the lack of standardized procedures across studies, which creates huge variation in sampling, processing, and characterization methodologies and hinders comparison between reports. Specifically, there is a lack of standardization in methodology and unit expression in sediment microplastic studies. Additionally, the paper notes that only 30% of recent publications included chemical characterization of identified plastic particles. Visual sorting alone is insufficient as it can lead to mis-, over-, or underestimations of plastic particles, requiring further characterization for accurate assessment. These challenges highlight the need for standardized protocols and more comprehensive analytical approaches in MNP research."
+  },
+  {
+    "sop_metadata": "S20014",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a detailed, critical assessment of methodological limitations in soil microplastics analysis using the CRED evaluation method across 13 quality criteria. The paper identifies multiple challenges in quality assurance and methodological aspects, with explicit documentation of limitations in various stages of the analysis workflow."
+    },
+    "bibliometric": {
+      "paper_id": "Praveena_et_al_2022",
+      "title": "Quality assessment for methodological aspects of microplastics analysis in soil",
+      "authors": [
+        "Sarva Mangala Praveena",
+        "Ahmad Zaharin Aris",
+        "Veer Singh"
+      ],
+      "journal": null,
+      "publication_year": 2022,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Praveena_et_al_2022-C1",
+        "module_title": "Lack of Clean Air Facilities in Soil Microplastics Analysis",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states that 30 out of 35 studies (85.7%) received a zero score for clean air conditions, with detailed quantitative data and consequences of this limitation."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance and Control",
+          "technique_or_method": "Air contamination prevention",
+          "identified_challenges": [
+            {
+              "challenge_type": "Contamination Risk",
+              "description_of_challenge": "Lack of proper clean air facilities (clean rooms, laminar flow cabinets) in most soil microplastics studies, leading to potential airborne contamination during analysis.",
+              "verbatim_quote_of_challenge": "Only five studies have scored the maximum scores for clean air condition criteria involving the microplastics analysis of soil samples. These studies have effectively utilized clean air facilities, namely, a clean room with a laboratory fume hood or a laminar flow cabinet during soil microplastics analysis. However, the remaining studies (n=30) were assigned a value of zero for providing limited details on sample handling under clean air conditions (e.g., a laminar flow cabinet in the laboratory) to prevent contamination.",
+              "source": "Results and discussion section"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Praveena_et_al_2022-C2",
+        "module_title": "Insufficient Positive Control Implementation in Soil Microplastics Studies",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 92,
+          "justification": "The paper explicitly states that only 40% of studies incorporated positive controls, with detailed explanation of the consequences, including specific citations of relevant literature."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance and Control",
+          "technique_or_method": "Positive control implementation",
+          "identified_challenges": [
+            {
+              "challenge_type": "Method Validation",
+              "description_of_challenge": "Only 40% of studies incorporated positive controls, making it difficult to assess method performance and increasing risk of false results.",
+              "verbatim_quote_of_challenge": "A total of 40% of the selected studies have incorporated positive controls in microplastics analysis in soil samples... According to Wright et al. [77] lack of positive controls results in difficulties in identifying the method performance and bias. Additionally, it increases the likelihood of reporting false-positive and false-negative results data.",
+              "source": "Results and discussion section"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Praveena_et_al_2022-C3",
+        "module_title": "Lack of Chemical Purity Documentation in Soil Microplastics Analysis",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states that only 17.1% of studies specified chemical purity information, with clear explanation of the consequences, including specific reference to analytical impact."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance and Control",
+          "technique_or_method": "Reagent chemical purity",
+          "identified_challenges": [
+            {
+              "challenge_type": "Reagent Contamination",
+              "description_of_challenge": "Only 17.1% of studies specified the chemical purity of reagents used, potentially leading to false conclusions due to trace impurities.",
+              "verbatim_quote_of_challenge": "Only 17.1% of the selected studies have ensured to specify the chemical purity information of the reagents used in the analysis of soil microplastics samples... Analytical results are characterized by a high level of chemical purity. The presence of trace impurities of high potency can lead to false conclusions and indirectly lead to a decreased purity level to generate spectroscopic data and characterization.",
+              "source": "Results and discussion section"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Praveena_et_al_2022-C4",
+        "module_title": "Chemical Degradation of Microplastics During Soil Sample Pre-treatment",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The paper clearly describes the issue with chemical degradation but requires synthesis from multiple statements in the results section regarding different chemical methods."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment and Digestion",
+          "technique_or_method": "Soil organic matter removal",
+          "identified_challenges": [
+            {
+              "challenge_type": "Polymer Degradation",
+              "description_of_challenge": "Commonly used strong acids for soil organic matter removal can degrade plastic polymers, compromising analysis results.",
+              "verbatim_quote_of_challenge": "Although concentrated acids such as sulfuric acid and hydrofluoric acid have been able to remove soil organic matter, these acids were found to partly degrade and melt plastics polymers such as acrylonitrile butadiene styrene (ABS), PA, and PET in soil.",
+              "source": "Results and discussion section"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Praveena_et_al_2022-C5",
+        "module_title": "High Error Rate in Visual Identification of Soil Microplastics",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 80,
+          "justification": "The paper states the high error rate but requires synthesis of information about how it impacts analysis across different particle sizes."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification and Quantification",
+          "technique_or_method": "Visual identification",
+          "identified_challenges": [
+            {
+              "challenge_type": "High Error Rate",
+              "description_of_challenge": "Visual identification method has high error rates (up to 70%) which increases with decreasing particle sizes, making small particle analysis particularly problematic.",
+              "verbatim_quote_of_challenge": "the error rate of visual identification sorting has been up to 70% and increases with decreasing particle sizes",
+              "source": "Results and discussion section"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "# Quality Assessment Findings for Soil Microplastics Analysis Methods\n\nThis review paper conducted a quality assessment of 35 soil microplastics studies using the CRED evaluation method across 13 methodological criteria. Key findings include:\n\n1. **Clean Air Conditions**: 85.7% of studies (30 out of 35) received zero points for clean air conditions, with only 5 studies effectively utilizing clean air facilities. This represents the lowest average score among all criteria.\n\n2. **Positive Controls**: Only 40% of studies incorporated positive controls, which the paper states \"results in difficulties in identifying the method performance and bias\" and \"increases the likelihood of reporting false-positive and false-negative results data.\"\n\n3. **Chemical Purity**: Only 17.1% of studies specified the chemical purity of reagents used, potentially leading to false conclusions due to trace impurities in analytical results.\n\n4. **Sample Pre-treatment**: Commonly used strong acids for soil organic matter removal were found to \"partly degrade and melt plastics polymers such as acrylonitrile butadiene styrene (ABS), PA, and PET in soil.\"\n\n5. **Visual Identification**: The error rate of visual identification sorting was reported to be \"up to 70% and increases with decreasing particle sizes,\" making small particle analysis particularly problematic.\n\nThe paper concludes that no study scored maximum points in all criteria, highlighting the urgent need for enhanced quality assurance in future soil microplastics studies."
+  },
+  {
+    "sop_metadata": "S20016",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper provides a critical assessment of current methods for terrestrial microplastic analysis, explicitly mentioning limitations such as the lack of applicable methods for complex soil matrix, potential for microplastic material alteration, and high probability of microplastics loss or false positive identification."
+    },
+    "bibliometric": {
+      "paper_id": "Chai-2020",
+      "title": "Soil microplastic pollution in an e-waste dismantling zone of China",
+      "authors": [
+        "Bingwen Chai",
+        "Qiang Wei",
+        "Yingzhe She",
+        "Guining Lu",
+        "Zhi Dang",
+        "Hua Yin"
+      ],
+      "journal": null,
+      "publication_year": 2020,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Chai-2020-C1",
+        "module_title": "Limitations in Current Terrestrial MNP Analysis Methods",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control",
+          "Pre-treatment_And_Digestion",
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitations are explicitly stated in the introduction section of the paper."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Overall Methodology",
+          "technique_or_method": "Current terrestrial MNP analysis methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "There is no applicable characterization method for microplastic in complex organo-mineral soil matrix and no standardized method has emerged for terrestrial MNP analysis.",
+              "verbatim_quote_of_challenge": "One of the reasons why microplastic pollution in soil and terrestrial ecosystems has rarely been studied is that an applicable characterization method for microplastic in complex organo-mineral soil matrix is lacking (Bläsing and Amelung, 2018;Rillig, 2012), and no standardized method has emerged either.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Polymer Damage",
+              "description_of_challenge": "The organic residues purification method may cause alteration of microplastic materials during sample preparation.",
+              "verbatim_quote_of_challenge": "this method may cause the alteration of microplastic materials (Hurley et al., 2O18)",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "False Positive Identification",
+              "description_of_challenge": "Visual identification under a microscope with the naked eye has a high probability of microplastics loss or overestimating these particles by false positive identification.",
+              "verbatim_quote_of_challenge": "a high probability of microplastics loss or overestimating these particles by false positive identification (Hidalgo-Ruz et al., 2O12; Zarfl, 2019)",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper identifies critical limitations in current terrestrial MNP analysis methods. It notes that there is a lack of applicable methods for complex soil matrix and no standardized method has emerged. The most commonly used detection method (organic residues purification followed by visual identification) may cause alteration of microplastic materials and has a high probability of microplastics loss or false positive identification."
+  },
+  {
+    "sop_metadata": "S20020",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of existing microplastic extraction methods, explicitly identifying multiple limitations and challenges in current workflows. The introduction systematically details problems with complexity, expense, low extraction efficiencies, incompatibility with fine sediments, and particle degradation from floatation media."
+    },
+    "bibliometric": {
+      "paper_id": "Coppock2017",
+      "title": "A small-scale, portable method for extracting microplastics from marine sediments",
+      "authors": [
+        "Rachel L. Coppock",
+        "Matthew Cole",
+        "Penelope K. Lindeque",
+        "Ana M. Queirós",
+        "Tamara S. Galloway"
+      ],
+      "journal": null,
+      "publication_year": 2017,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Coppock2017-C1",
+        "module_title": "Complexity and Multi-Step Process in Microplastic Extraction",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 98,
+          "justification": "The paper explicitly lists complexity as a drawback in the introduction with specific citations."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Existing microplastic extraction methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Procedural Complexity",
+              "description_of_challenge": "Existing methods require multiple steps to retrieve microplastics, making the process unnecessarily complex and time-consuming.",
+              "verbatim_quote_of_challenge": "Other methods require several steps to retrieve microplastics (Claessens et al., 2013; Fries et al., 2013; Nuelle et al., 2014; Stolte et al., 2015) and may include equipment that suit extraction from coarse sediments such as an elutriation step (Claessens et al., 2013) or use of a separation funnel (Fries et al., 2013), but clog when using very fine sediments",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Coppock2017-C2",
+        "module_title": "High Cost of Microplastic Extraction Methods",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 97,
+          "justification": "The expense of methods is explicitly stated as a drawback in the introduction with specific examples."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Existing microplastic extraction methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Cost Inefficiency",
+              "description_of_challenge": "The high cost of consumables, particularly Metatungstate solution, makes existing methods impractical for widespread use.",
+              "verbatim_quote_of_challenge": "However, such methods have been disadvantaged with a number of drawbacks, including complexity (Claessens et al., 2013), expense (Imhof et al., 2012), low extraction efficiencies (Hidalgo-ruz et al., 2012; Imhof et al., 2012), incompatibility with very fine sediments (Claessens et al.,2013; Fries et al.,2013), particle degradation from floatation media (Lusher et al.,2016), and expense of consumables, e.g., Metatungstate solution in the NOAA approved protocol (Masura et al., 2015).",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Coppock2017-C3",
+        "module_title": "Low Extraction Efficiency in Density Floatation",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 98,
+          "justification": "The paper explicitly states low extraction efficiency as a specific drawback with citation support."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Density floatation",
+          "identified_challenges": [
+            {
+              "challenge_type": "Low Efficiency",
+              "description_of_challenge": "The decanting process while avoiding disruption of settled sediment typically yields low extraction efficiencies, often requiring repeat extractions.",
+              "verbatim_quote_of_challenge": "The decanting of floating plastic whilst simultaneously avoiding disruption of the settled sediment poses a challenge, typically yielding low extraction efficiencies and hence requiring repeat extractions (Hidalgo-ruz et al., 2012; Imhof et al., 2012).",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Coppock2017-C4",
+        "module_title": "Incompatibility with Fine Sediments",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 97,
+          "justification": "The incompatibility with fine sediments is explicitly mentioned with specific citations in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Density floatation",
+          "identified_challenges": [
+            {
+              "challenge_type": "Material Limitation",
+              "description_of_challenge": "Existing methods often clog when used with very fine sediments, making them unsuitable for many environmental samples.",
+              "verbatim_quote_of_challenge": "Other methods require several steps to retrieve microplastics (Claessens et al., 2013; Fries et al., 2013; Nuelle et al., 2014; Stolte et al., 2015) and may include equipment that suit extraction from coarse sediments such as an elutriation step (Claessens et al., 2013) or use of a separation funnel (Fries et al., 2013), but clog when using very fine sediments (pers.comms. Dr. Andy Watts, University of Exeter and pers.obs.).",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Coppock2017-C5",
+        "module_title": "Particle Degradation from Floatation Media",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly lists particle degradation as one of several drawbacks of existing methods."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Floatation media",
+          "identified_challenges": [
+            {
+              "challenge_type": "Sample Integrity",
+              "description_of_challenge": "The use of certain floatation media can cause degradation of microplastic particles, potentially affecting analysis results.",
+              "verbatim_quote_of_challenge": "particle degradation from floatation media (Lusher et al.,2016)",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review critically examines limitations in microplastic extraction methods. Key challenges include: (1) High procedural complexity in existing methods requiring multiple steps that clog with fine sediments; (2) Significant cost inefficiencies from expensive consumables like Metatungstate solution; (3) Low extraction efficiencies due to difficulties in decanting floating plastics without disturbing settled sediment; (4) Incompatibility with fine sediments where equipment clogs; and (5) Particle degradation from certain floatation media. These limitations highlight the need for improved methodologies, which the paper addresses through their portable SMI unit design."
+  },
+  {
+    "sop_metadata": "S20023",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a detailed, critical assessment of the efficiency limitations of organic matter removal methods in microplastic soil analysis, with quantitative comparisons of extraction efficiency across different soil types, incubation times, and organic matter removal agents."
+    },
+    "bibliometric": {
+      "paper_id": "Stec_2024",
+      "title": "Soil Microplastic Extraction Efficiency Depends on the Sample Incubation Time and the Organic Matter Removal Agent Used",
+      "authors": [
+        "Radoslaw Stec",
+        "Krzysztof Sitko",
+        "Marta Pogrzeba",
+        "Szymon Rusinowski",
+        "Paulina Janota",
+        "Izabela Ratman-Klosinska",
+        "Jacek Krzyzak"
+      ],
+      "journal": "Springer Nature",
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Stec_2024-C1",
+        "module_title": "Reduced Microplastic Recovery Efficiency with Organic Matter Removal Agents",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 98,
+          "justification": "The paper explicitly presents quantitative data showing lower recovery rates (44%, 75%, 86%) compared to control methods, with clear statements in the abstract and results section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "H2O2 and KOH organic matter removal",
+          "identified_challenges": [
+            {
+              "challenge_type": "Low Recovery Rates",
+              "description_of_challenge": "Organic matter removal agents (H2O2 and KOH) significantly reduce microplastic recovery rates compared to samples without organic matter removal, with recovery rates as low as 44% in heavy metal contaminated sandy clay soils.",
+              "verbatim_quote_of_challenge": "The samples without organic matter removal showed a significantly better recovery rate of microplastics than the samples treated with H2O2 and KOH.",
+              "source": "Abstract"
+            },
+            {
+              "challenge_type": "Soil Type Dependency",
+              "description_of_challenge": "The efficiency of organic matter removal methods varies dramatically based on soil composition, with heavy metal contaminated sandy clay soils showing only 44% recovery rate compared to 86% in loose sand samples.",
+              "verbatim_quote_of_challenge": "Compared to the results obtained with the control method after a two-week incubation, the loose sand samples achieved a similar extraction efficiency (86%), the amount of MP recovered in the uncontaminated sandy clay samples was 75%, while the sandy clay soils contaminated with heavy metals was 44%",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Stec_2024-C2",
+        "module_title": "Incubation Time Negatively Impacts Microplastic Extraction Efficiency",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states and quantifies the negative impact of incubation time on extraction efficiency, with clear data presented in results section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Sample incubation time",
+          "identified_challenges": [
+            {
+              "challenge_type": "Time-Dependent Efficiency Loss",
+              "description_of_challenge": "A longer incubation time (3 months) results in significantly lower efficiency of microplastic extraction compared to shorter incubation (2 weeks), particularly in soils with high organic matter content.",
+              "verbatim_quote_of_challenge": "The effects of changing the incubation time were significant in soils with a high organic matter content. A longer incubation time resulted in a lower efficiency of microplastic extraction.",
+              "source": "Abstract"
+            },
+            {
+              "challenge_type": "Soil Composition Interaction",
+              "description_of_challenge": "The negative impact of extended incubation time varies by soil type, with statistically significant differences observed in B soil (heavy metal contaminated) but not consistently across all soil types, indicating complex interactions between incubation time and soil composition.",
+              "verbatim_quote_of_challenge": "For B soil, the efficiency is significantly lower than for P, but for the H2O2 treatment, the efficiency after 14 days of incubation was the second best of all samples. This is the only time that 14 days and 90 days are so different for B soil.",
+              "source": "Results"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This paper identifies critical limitations in terrestrial MNP analysis methods, particularly in the pre-treatment and digestion phase. The study demonstrates that organic matter removal agents (H2O2 and KOH) significantly reduce microplastic recovery rates, with heavy metal contaminated soils showing only 44% efficiency compared to 86% in loose sand samples. The research also shows that longer incubation times (3 months) result in substantially lower extraction efficiency compared to shorter incubation periods (2 weeks), especially in high organic matter content soils. These findings highlight serious methodological challenges in current soil microplastic extraction protocols that directly impact the reliability of quantification results."
+  },
+  {
+    "sop_metadata": "S20024",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a detailed, critical assessment of the challenges and limitations in sample preparation techniques for microplastic analysis in soil, including drying, aggregate dispersion, density separation, and SOM removal methods."
+    },
+    "bibliometric": {
+      "paper_id": "thomas2020",
+      "title": "Sample Preparation Techniques for the Analysis of Microplastics in Soil—A Review",
+      "authors": [
+        "Daniela Thomas",
+        "Berit Schütze",
+        "Wiebke Mareile Heinze",
+        "Zacharias Steinmetz"
+      ],
+      "journal": null,
+      "publication_year": 2020,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "thomas2020-C1",
+        "module_title": "Thermal Degradation Risk in Soil Drying Process",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states temperature thresholds and specific effects on different polymers in Section 3.1."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Oven Drying",
+          "identified_challenges": [
+            {
+              "challenge_type": "Polymer Degradation",
+              "description_of_challenge": "Drying at temperatures above 40°C may affect polymer physical and structural properties through glass transition, melting, or degradation, particularly affecting biodegradable polymers like PLA and PBAT.",
+              "verbatim_quote_of_challenge": "However, temperatures above 40°C may affect the polymers' physical and structural properties by glass transition, melting, or degradation. For instance, the glass transition temperatures of polybutylene terephthalate, poly(methyl methacrylate) (PMMA), and polyamide (PA) are 40, 50, and 50-75°C, respectively.",
+              "source": "Section 3.1"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "thomas2020-C2",
+        "module_title": "Inconsistent Sonication Effectiveness for Soil Aggregate Dispersion",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper clearly states the dependency of sonication effectiveness on soil properties with specific references to interference issues."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Ultrasonication",
+          "identified_challenges": [
+            {
+              "challenge_type": "Process Inconsistency",
+              "description_of_challenge": "Sonication effectiveness varies significantly with soil type and aggregate stability, with progressive sonication increasing light-density SOM that may interfere with density separation.",
+              "verbatim_quote_of_challenge": "However, adequate sonication levels strongly depend on the soil type, in particular on the aggregate stability[67], and progressive sonication may increase the amount of light-density SOM potentially interfering with density separation.",
+              "source": "Section 3.3"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "thomas2020-C3",
+        "module_title": "Inconsistent Density Solution Effectiveness",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly compares results between studies and identifies specific reasons for inconsistent outcomes."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Density Separation with NaBr",
+          "identified_challenges": [
+            {
+              "challenge_type": "Method Inconsistency",
+              "description_of_challenge": "NaBr solution effectiveness varies between studies due to differences in adjusted densities, leading to inconsistent microplastic recovery rates across different soil types.",
+              "verbatim_quote_of_challenge": "While NaBr solutions (ρ = 1.4-1.6 g cm^-3) did not result in significant improvement of microplastic recoveries from sediment [74], Liu et al. [73] found that NaBr outperformed both NaCl and CaCl2 at separating various plastic types, sizes, and shapes from a range of different soil samples. One reason for this discrepancy was probably the difference in the adjusted densities between both studies.",
+              "source": "Section 3.4.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "thomas2020-C4",
+        "module_title": "Polymer Degradation Risk with Alkaline SOM Removal",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper provides explicit examples with specific polymers and concentrations in Section 3.5."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Alkaline SOM Removal (NaOH, KOH)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Polymer Degradation",
+              "description_of_challenge": "Alkaline treatments can severely degrade certain polymers, especially biodegradable ones like PLA, with complete loss of target analytes reported at common concentrations.",
+              "verbatim_quote_of_challenge": "Alkaline treatments may even more severely affect biodegradable plastics. Kihn et al. [11], for instance, reported complete loss of a PLA bag after purification with 1 M KOH.",
+              "source": "Section 3.5"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "thomas2020-C5",
+        "module_title": "Temperature Sensitivity of Fenton Reaction",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states the temperature requirement for the Fenton reaction with clear justification."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Fenton Reagent for SOM Removal",
+          "identified_challenges": [
+            {
+              "challenge_type": "Process Control Requirement",
+              "description_of_challenge": "The Fenton reaction is extremely exothermic and requires strict temperature control (≤40°C) to maintain effectiveness and prevent polymer degradation.",
+              "verbatim_quote_of_challenge": "Additional cooling (≤40°C) is advisable since the reaction is extremely exothermic [94].",
+              "source": "Section 3.5"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review identifies critical challenges in terrestrial microplastic analysis methods. In pre-treatment and digestion, thermal drying above 40°C risks polymer degradation (C1), ultrasonication effectiveness varies with soil properties (C2), alkaline SOM removal severely degrades biodegradable polymers like PLA (C4), and Fenton reagent requires strict temperature control (C5). For separation and filtration, density solution effectiveness varies significantly based on adjusted densities across soil types (C3). These challenges highlight the need for standardized, soil-specific protocols with careful consideration of polymer properties and soil characteristics to ensure accurate microplastic quantification."
+  },
+  {
+    "sop_metadata": "S20025",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The abstract states the paper evaluates detection methods and discusses challenges in microplastic analysis for agricultural soil, but the provided HTML contains only the abstract with no body text to extract specific challenges."
+    },
+    "bibliometric": {
+      "paper_id": null,
+      "title": "MICROPLASTICS IN AGRICULTURAL SOIL: DETECTION TECHNIQUES, CHALLENGES, LIMITATION AND FUTURE RESEARCH DIRECTION - A REVIEW",
+      "authors": [
+        "Weiqing Yin",
+        "Zhao Yao",
+        "Muhammad Tariq",
+        "Jiaqi Zhang",
+        "Qaiser Javed’",
+        "Qingjie Xie",
+        "Guanlin Li",
+        "Ismail Khan",
+        "Xin Zhao",
+        "Babar Iqbal"
+      ],
+      "journal": null,
+      "publication_year": null,
+      "doi": null
+    },
+    "challenge_modules": [],
+    "markdownCard": "No challenge modules were extracted due to insufficient information in the provided HTML (abstract-only). The paper is in-scope per abstract claims, but body text containing specific challenges, verbatim quotes, and source locations was not available for extraction."
+  },
+  {
+    "sop_metadata": "S20026",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The review paper provides critical discussion of separation technologies for soil microplastics, specifically mentioning challenges related to soil matrix complexity and high operational costs."
+    },
+    "bibliometric": {
+      "paper_id": "Chang2025",
+      "title": "Research Progress on Source Analysis, Ecological Effects, and Separation Technology of Soil Microplastics",
+      "authors": [
+        "Kuan Chang",
+        "Yong Ma",
+        "Yulai Han"
+      ],
+      "journal": "Microplastics",
+      "publication_year": 2025,
+      "doi": "https://doi.org/10.3390/microplastics4030039"
+    },
+    "challenge_modules": null,
+    "reason": "HTML content was cut off; insufficient information to extract specific challenge modules. The abstract and introduction indicate the paper is in-scope by mentioning challenges with separation techniques (soil matrix complexity and high operational costs), but the full methodology discussion needed to extract complete challenge modules was not provided in the HTML excerpt."
+  },
+  {
+    "sop_metadata": "S20028",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of density separation methods for microplastic extraction, explicitly discussing limitations, safety concerns, and technical challenges of current approaches."
+    },
+    "bibliometric": {
+      "paper_id": "Jarosz2022",
+      "title": "Microplastic Extraction from the Sediment Using Potassium Formate Water Solution (H2OKCOOH)",
+      "authors": [
+        "Jarosz, K.",
+        "Natkanski, P.",
+        "Michalik, M."
+      ],
+      "journal": "Minerals",
+      "publication_year": 2022,
+      "doi": "10.3390/min12020269"
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Jarosz2022-C1",
+        "module_title": "Limitations of Sodium Iodide in Density Separation",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitation is explicitly stated in section 1.2 with specific details about the problem."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Density Separation with Sodium Iodide",
+          "identified_challenges": [
+            {
+              "challenge_type": "Limitation",
+              "description_of_challenge": "Sodium iodide blackens cellulose filters, making visual inspection difficult or impossible.",
+              "verbatim_quote_of_challenge": "NaI has been found to be problematic as it blackens the cellulose filters, making visual inspection borderline impossible",
+              "source": "Section 1.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Jarosz2022-C2",
+        "module_title": "Time-Consuming Nature of Sodium Chloride Density Separation",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitation is explicitly stated in section 1.2 with specific details about the process and error margin."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Density Separation with Sodium Chloride",
+          "identified_challenges": [
+            {
+              "challenge_type": "Efficiency Bottleneck",
+              "description_of_challenge": "Sodium chloride is time-consuming as it requires careful sediment washing multiple times and has a wide error margin due to inability to recover low-density microplastics.",
+              "verbatim_quote_of_challenge": "Using NaCl is cheapest but the most time consuming as it requires careful sediment washing (e.g., three times according to [32]) and has a wide error margin since it does not allow for the recovery of low-density microplastics.",
+              "source": "Section 1.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Jarosz2022-C3",
+        "module_title": "Hazardous Nature of Popular High-Density Solutions",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The safety concerns are explicitly stated in section 1.2 with specific hazard codes from GHS."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Density Separation with High-Density Solutions",
+          "identified_challenges": [
+            {
+              "challenge_type": "Safety Concern",
+              "description_of_challenge": "Popular high-density solutions like NaI and ZnCl2 are classified as harmful and toxic by GHS with specific hazard codes.",
+              "verbatim_quote_of_challenge": "However popular high-density solutions are classified as harmful and toxic by GHS (Globally Harmonized System) Hazard Statements: NaI (hazard code: H303,H315,H319,H400), ZnCl2 (H302,H314,H400,H410)",
+              "source": "Section 1.2"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This paper critically evaluates density separation methods for microplastic extraction from sediment. The authors identify multiple limitations in current approaches: (1) Sodium iodide blackens cellulose filters, making visual inspection borderline impossible; (2) Sodium chloride is time-consuming requiring multiple sediment washes and has a wide error margin due to inability to recover low-density microplastics; (3) Popular high-density solutions like NaI and ZnCl2 are classified as harmful and toxic by GHS with specific hazard codes. These challenges highlight the need for safer, more efficient methods like potassium formate solution for microplastic density separation. The paper provides explicit evidence of these limitations in Section 1.2, demonstrating high confidence in the identified challenges."
+  },
+  {
+    "sop_metadata": "S20030",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a critical assessment of methodological limitations for soil microplastic analysis, noting that differences in reported microplastic concentrations across regions can be attributed to methodological differences in sampling, pretreatment, and analysis."
+    },
+    "bibliometric": {
+      "paper_id": "Yang_et_al_2024",
+      "title": "Review of microplastics in soils: state-of-the-art occurrence, transport, and investigation methods",
+      "authors": [
+        "Seon-jin Yang",
+        "Byung-Tae Lee",
+        "Soon-Oh Kim",
+        "Sunhwa Park"
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": null,
+    "markdownCard": null,
+    "reason": "HTML provided was incomplete and did not contain sufficient detail on specific challenges in the analytical workflow. The extracted content only contains the abstract, introduction, and partial literature survey without detailed discussion of methodological challenges with verbatim quotes, specific techniques, and source locations required for challenge module extraction."
+  },
+  {
+    "sop_metadata": "S20034",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper provides a critical assessment of the lack of uniform standards for sampling techniques, extraction methods, analytical procedures, and expression units for soil microplastics, which directly addresses challenges in the terrestrial MNP analysis workflow."
+    },
+    "bibliometric": {
+      "paper_id": "...",
+      "title": "Microplastic Pollution in the Soil Environment: Characteristics, Influencing Factors, and Risks",
+      "authors": [
+        "Chunhui Wang",
+        "Junhong Tang",
+        "Haixia Yu",
+        "Yiyi Wang",
+        "Huanxuan Li",
+        "Shaodan Xu",
+        "Gang Li",
+        "Qian Zhou"
+      ],
+      "journal": "Sustainability",
+      "publication_year": 2022,
+      "doi": "10.3390/su142013405"
+    },
+    "challenge_modules": null,
+    "markdownCard": null,
+    "reason": "HTML only contains abstract and part of introduction; insufficient information to identify specific challenges with verbatim quotes and technical details required for Challenge_Module objects."
+  },
+  {
+    "sop_metadata": "S20035",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The abstract states the paper provides 'detailed insight into the current techniques available for the isolation and identification of soil microplastics, providing solutions to some of the critical challenges faced and highlighting the research gaps.'"
+    },
+    "bibliometric": {
+      "paper_id": null,
+      "title": "Microplastic interactions in the agroecosystems: methodological advances and limitations in quantifying microplastics from agricultural soil",
+      "authors": [
+        "Pazhamthavalathil Anil Athulya",
+        "Yojana Waychal",
+        "Andres Rodriguez-Seijo",
+        "Sandhya Devalla",
+        "C. George Priya Doss",
+        "Natarajan Chandrasekaran"
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [],
+    "markdownCard": "The provided HTML excerpt only contains the title, authors, and abstract of the paper. While the abstract indicates the paper discusses methodological challenges in microplastic analysis, the detailed methodology sections containing specific challenges and limitations were not included in the provided HTML snippet. Therefore, no challenge modules could be extracted from the available content."
+  },
+  {
+    "sop_metadata": "S20039",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a critical assessment of the limitations and challenges of methods for soil microplastic identification, explicitly mentioning issues with visual identification, spectral variation due to weathering, time-consuming isolation processes, and lack of standardization."
+    },
+    "bibliometric": {
+      "paper_id": "Pahlawan2025",
+      "title": "Non-destructive identification of microplastics in soil using spectroscopy and hyperspectral imaging",
+      "authors": [
+        "M.F.R. Pahlawan",
+        "Yena Kim",
+        "Umuhoza Aline",
+        "Aridatuz Zahroh",
+        "Rudiati Evi Masithoh",
+        "Moon S. Kim",
+        "Insuck Baek",
+        "Byoung-Kwan Cho"
+      ],
+      "journal": null,
+      "publication_year": 2025,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Pahlawan2025-C1",
+        "module_title": "Limitations of Visual Identification",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the limitations of visual identification in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Visual investigation aided by optical microscope",
+          "identified_challenges": [
+            {
+              "challenge_type": "Human Error / Subjectivity",
+              "description_of_challenge": "Visual investigation is prone to human error and has low accuracy, making it unreliable for precise microplastic identification.",
+              "verbatim_quote_of_challenge": "Visual investigation aided by an optical microscope is the simplest and cheapest method for microplastic identification; yet, it is prone to human error and has a low accuracy [26].",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Pahlawan2025-C2",
+        "module_title": "Spectral Variation Due to Weathering",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the impact of weathering on spectral analysis in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "GC, FT-IR, and Raman spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Spectral Interference / Variation",
+              "description_of_challenge": "Weathering causes spectral variation, including in the carbonyl region, which affects model accuracy and reliability of identification results.",
+              "verbatim_quote_of_challenge": "However, weathering could cause spectral variation, including in the carbonyl region, and affect the model's accuracy [28,29].",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Pahlawan2025-C3",
+        "module_title": "Complicated and Time-Consuming Isolation Process",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the isolation process limitations in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "GC, FT-IR, and Raman spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Efficiency Bottleneck",
+              "description_of_challenge": "Standard methods require the isolation of plastic from the soil matrix, which is complicated and time-consuming, limiting practical application for large-scale analysis.",
+              "verbatim_quote_of_challenge": "Additionally, these methods require the isolation of plastic from the soil matrix, which is complicated and time-consuming [3O].",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Pahlawan2025-C4",
+        "module_title": "Lack of Standardization",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the standardization issues in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "Overall methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "Absence of standardization in soil sampling, microplastic isolation, and identification makes results questionable for reproducibility and representativeness.",
+              "verbatim_quote_of_challenge": "Furthermore, the absence of standardization in soil sampling, microplastic isolation, and identification renders the reproducibility and representativeness of the results questionable [31].",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This paper critically examines challenges in terrestrial microplastic analysis methods. Four key challenges were identified: (1) Visual identification is prone to human error and has low accuracy; (2) Weathering causes spectral variation in spectroscopic methods, affecting model accuracy; (3) Standard methods require complicated and time-consuming isolation of plastics from soil matrix; (4) Lack of standardization in sampling, isolation, and identification makes results questionable for reproducibility and representativeness. The paper highlights that non-destructive methods like spectroscopy and hyperspectral imaging offer potential solutions by avoiding microplastic isolation, facilitating faster measurements with minimal preparation, and potentially enabling on-site investigations. However, the authors note that limited research has been conducted in this area, emphasizing the need for more studies on non-destructive identification techniques."
+  },
+  {
+    "sop_metadata": "S20042",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This is a review article on analytical methods of microplastics in soil ecosystems, which is expected to provide critical assessment of MNP analysis methods, though HTML fragment is incomplete to fully verify explicit mentions of challenges."
+    },
+    "bibliometric": {
+      "paper_id": "S0147651322008491",
+      "title": "Distribution, sources, migration, influence and analytical methods of microplastics in soil ecosystems",
+      "authors": null,
+      "journal": "Ecotoxicology and Environmental Safety",
+      "publication_year": null,
+      "doi": "10.1016/j.ecoenv.2022.114009"
+    },
+    "challenge_modules": [],
+    "markdownCard": null
+  },
+  {
+    "sop_metadata": "S20043",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper explicitly states it will provide a critical overview of soil microplastic analysis methods, noting that 'the methods of sample collection, pretreatment and identification of soil microplastics also lack comparison and overview' and that 'the development of analytical methods is limited due to the complex matrix of soil and the small volume of microplastics'."
+    },
+    "bibliometric": {
+      "paper_id": "Yang et al. - 2022",
+      "title": "Distribution, sources, migration, influence and analytical methods of microplastics in soil ecosystems",
+      "authors": [
+        "Yang, Huirong",
+        "Yumeng, Yan",
+        "Yue, Youkai",
+        "Yinglina, He",
+        "Fu, Bing",
+        "Wang, Jun"
+      ],
+      "journal": null,
+      "publication_year": 2022,
+      "doi": null
+    },
+    "challenge_modules": null,
+    "reason": "The HTML provided contains only the first half of the paper (abstract, introduction, and partial section 2). The critical discussion of analytical methods and their challenges, which should appear in section 3 ('the analysis methods of soil microplastics, including sample pretreatment, separation methods, identification and quantification methods'), is not included in the provided HTML. Without this section, specific challenges cannot be extracted with the required level of detail (workflow stage, technique, verbatim quotes, etc.) as mandated by the SOP."
+  },
+  {
+    "sop_metadata": "S20046",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper title 'Application of hyperspectral and deep learning in farmland soil microplastic detection' and metadata suggest it is a methodological paper. The meta description indicates 'Currently, there are no established techniques for det[ecting microplastics]', suggesting critical discussion of methods. However, HTML content is insufficient to fully verify the critical perspective on MNP analysis workflow."
+    },
+    "bibliometric": {
+      "paper_id": "S0304389422023627",
+      "title": "Application of hyperspectral and deep learning in farmland soil microplastic detection",
+      "authors": null,
+      "journal": "Journal of Hazardous Materials",
+      "publication_year": 2023,
+      "doi": "10.1016/j.jhazmat.2022.130568"
+    },
+    "challenge_modules": null,
+    "markdownCard": null,
+    "reason": "HTML content is insufficient to extract challenge modules. The provided HTML contains only metadata and does not include the abstract, introduction, discussion, or other sections where methodological limitations would be discussed."
+  },
+  {
+    "sop_metadata": "S20047",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of the limitations of existing soil microplastic detection methods, particularly noting that current techniques require time-consuming sample preparation, complex pre-processing, destructive testing, and fail to provide size and shape information, making them challenging for regular analysis."
+    },
+    "bibliometric": {
+      "paper_id": "Ai et al. - 2023",
+      "title": "Application of hyperspectral and deep learning in farmland soil microplastic detection",
+      "authors": [
+        "Wenjie Ai",
+        "Guanglong Chen",
+        "Xuejun Yue",
+        "Jun Wang"
+      ],
+      "journal": null,
+      "publication_year": 2023,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Ai et al. - 2023-C1",
+        "module_title": "Limitations of FTIR-based Soil Microplastic Detection",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the limitations of FTIR-based methods in the Introduction section with clear verbatim quotes."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "FTIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Efficiency Bottleneck",
+              "description_of_challenge": "Time-consuming sample preparation and complex pre-processing make FTIR-based methods inefficient for regular analysis",
+              "verbatim_quote_of_challenge": "These methods require time-consuming sample preparation, complex pre-processing, as well as testing MPs individually for destructive properties and the inability to obtain information about the size and shape of MPs. Consequently, it is challenging to use these approaches in regular analysis.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Destructive Testing",
+              "description_of_challenge": "The methods require destructive testing of MPs individually, which prevents sample re-use",
+              "verbatim_quote_of_challenge": "These methods require time-consuming sample preparation, complex pre-processing, as well as testing MPs individually for destructive properties and the inability to obtain information about the size and shape of MPs.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Size and Shape Information Limitation",
+              "description_of_challenge": "Inability to obtain comprehensive information about the size and shape of microplastics",
+              "verbatim_quote_of_challenge": "These methods require time-consuming sample preparation, complex pre-processing, as well as testing MPs individually for destructive properties and the inability to obtain information about the size and shape of MPs.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper identifies significant limitations in FTIR-based soil microplastic detection methods. These methods require time-consuming sample preparation, complex pre-processing, destructive testing of MPs individually, and fail to provide information about the size and shape of MPs. The paper explicitly states that these limitations make it challenging to use these approaches in regular analysis. This challenge module focuses on the identification and quantification workflow stage, highlighting how current spectroscopic methods are inefficient for practical monitoring applications."
+  },
+  {
+    "sop_metadata": "S20048",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of the limitations of density extraction methods and spectroscopic identification methods for MNP analysis, explicitly discussing challenges in the introduction section."
+    },
+    "bibliometric": {
+      "paper_id": "Zhou_et_al_2024",
+      "title": "Distribution characteristics of soil microplastics and their impact on soil physicochemical properties in agricultural areas of the North China Plain",
+      "authors": [
+        "Yuze Zhou",
+        "Ming Dou",
+        "Yan Zhang",
+        "Kaizi Ning",
+        "Yuxuan Li"
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Zhou_et_al_2024-C1",
+        "module_title": "Density Limitations of NaCl Extraction",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The density limitation of NaCl extract is explicitly stated in the introduction section with specific numerical values."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Density extraction using NaCl",
+          "identified_challenges": [
+            {
+              "challenge_type": "Density Limitation",
+              "description_of_challenge": "NaCl extract can only extract MPs with lower density such as PP and PE due to its limited density of 1.2 g/cm³.",
+              "verbatim_quote_of_challenge": "NaCl is the most commonly used, but the density of NaCl extracts is only 1.2 g/cm³, it can only extract MPs with lower density such as PP and PE.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Zhou_et_al_2024-C2",
+        "module_title": "Corrosion and Complexity Issues with ZnCl2 Extraction",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The corrosive nature of ZnCl2 and its requirement for additional acid solution is explicitly stated in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Density extraction using ZnCl2",
+          "identified_challenges": [
+            {
+              "challenge_type": "Process Complexity",
+              "description_of_challenge": "ZnCl2 is corrosive and requires additional acid solution to maximize density, which hinders the extraction process.",
+              "verbatim_quote_of_challenge": "ZnCl2 is corrosive, and in order to maximize the density of the ZnCl2 extract, additional acid solution is usually required, which will seriously hinder the extraction process.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Zhou_et_al_2024-C3",
+        "module_title": "Efficiency and Interference Issues with Raman Spectroscopy",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The time-consuming nature and fluorescence interference of Raman spectroscopy is explicitly stated in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Raman spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Efficiency Bottleneck",
+              "description_of_challenge": "The detection process is time-consuming and can be easily influenced by the spontaneous fluorescence of soil organic matter.",
+              "verbatim_quote_of_challenge": "Raman spectroscopy is commonly coupled with microscopy techniques and can be used to identify MPs with sizes larger than 1 μm. However, the detection process is time-consuming and can be easily influenced by the spontaneous fluorescence of soil organic matter.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Zhou_et_al_2024-C4",
+        "module_title": "Size Limitation and Interference with FT-IR",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The size limitation and organic matter interference of FT-IR is explicitly stated in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "FT-IR",
+          "identified_challenges": [
+            {
+              "challenge_type": "Size Limitation",
+              "description_of_challenge": "FT-IR is only suitable for detecting microplastics larger than 20 μm and is prone to interference from organic matter.",
+              "verbatim_quote_of_challenge": "FT-IR is only suitable for detecting microplastics larger than 20 μm and is prone to interference from organic matter.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Zhou_et_al_2024-C5",
+        "module_title": "Cost Limitations of Fourier Transform Infrared Microspectroscopy",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The high cost limitation of Fourier Transform Infrared Microspectroscopy is explicitly stated in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Fourier Transform Infrared Microspectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Cost Limitation",
+              "description_of_challenge": "Fourier Transform Infrared Microspectroscopy has high cost which reduces its popularity despite its advantages for batch identification.",
+              "verbatim_quote_of_challenge": "Fourier Transform Infrared Microspectroscopy combines the advantages of FT-IR and microscopy, enabling the batch identification of MPs within a certain range. However, due to its high cost, its popularity is low.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Zhou_et_al_2024-C6",
+        "module_title": "General Matrix Interference in Extraction",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The general difficulties in extraction due to matrix interference are explicitly stated in the introduction section."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "General extraction methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Matrix Interference",
+              "description_of_challenge": "Extraction and identification of MPs are difficult due to influences from inorganic substances (roots and minerals) and organic matter.",
+              "verbatim_quote_of_challenge": "The extraction and identification of MPs are quite difficult due to the influences of inorganic substances (such as roots and minerals) and organic matter.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper identifies multiple critical challenges in terrestrial MNP analysis methods. In pre-treatment and digestion, NaCl extraction has density limitations (1.2 g/cm³) restricting it to lower density MPs like PP and PE. ZnCl2 extraction is problematic due to corrosion and the requirement for additional acid solution that hinders the process. Matrix interference from inorganic substances and organic matter generally complicates extraction. For identification and quantification, Raman spectroscopy is time-consuming and susceptible to fluorescence interference from soil organic matter. FT-IR has size limitations (only suitable for MPs >20 μm) and organic matter interference. Fourier Transform Infrared Microspectroscopy, while enabling batch identification, has high cost limitations that reduce its popularity. The paper explicitly notes these limitations in its introduction section, justifying the development of a new fluorescence staining-based image recognition method to address these challenges."
+  },
+  {
+    "sop_metadata": "S20049",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a critical assessment of a specific limitation in the Sediment Microplastic Isolation (SMI) unit for density separation, documenting PVC contamination issues with experimental evidence and validation of a solution."
+    },
+    "bibliometric": {
+      "paper_id": "Nel-2019",
+      "title": "Simple yet effective modifications to the operation of the Sediment Isolation Microplastic unit to avoid polyvinyl chloride (PVC) contamination",
+      "authors": [
+        "Holly Nel",
+        "Stefan Krause",
+        "Gregory H. Sambrook Smith",
+        "Iseult Lynch"
+      ],
+      "journal": null,
+      "publication_year": 2019,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Nel-2019-C1",
+        "module_title": "PVC Contamination from Ball Valve in Sediment Microplastic Isolation Unit",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the PVC contamination issue with experimental evidence including analysis of negative controls, field samples, and validation with positive blanks."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Sediment Microplastic Isolation (SMI) Unit",
+          "identified_challenges": [
+            {
+              "challenge_type": "Contamination Source",
+              "description_of_challenge": "PVC contamination from wear and tear of the PVC ball valve during the extraction process, leading to grey shavings in both negative controls and field samples after approximately 20 extractions.",
+              "verbatim_quote_of_challenge": "PVC contamination occurred during the extraction of 20 samples, with indicative grey shavings found in both negative controls and field samples.",
+              "source": "Abstract"
+            },
+            {
+              "challenge_type": "Method Limitation",
+              "description_of_challenge": "The original protocol required opening and closing the ball valve during extraction, which caused striations on the valve and introduced PVC contamination that could lead to overestimation of PVC polymers in field samples.",
+              "verbatim_quote_of_challenge": "Striations were evidenced on the ball valve after 20 extractions (Fig.1; Image b) that were not originally documented (Fig.1; Image c) suggesting a risk of polyvinyl chloride (PVC) contamination of the samples. This was confirmed by analysing blank samples, which contained grey fragments/shavings (Fig.1; Image d).",
+              "source": "Introduction/Background section"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "Identified PVC contamination from the ball valve in the Sediment Microplastic Isolation (SMI) unit during density separation. The wear and tear of the PVC ball valve led to contamination evident in negative controls and field samples after approximately 20 extractions. A modification was implemented where the ball valve remains open throughout the extraction process, eliminating the contamination while maintaining recovery rates above 80%. The original protocol required opening and closing the ball valve during extraction, which caused striations on the valve and introduced PVC contamination that could lead to overestimation of PVC polymers in field samples."
+  },
+  {
+    "sop_metadata": "S20053",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a detailed, critical assessment of the challenges and limitations in microplastic extraction methods from solid matrices, specifically discussing multiple pain points in the separation and digestion workflow stages."
+    },
+    "bibliometric": {
+      "paper_id": "Ruffell2024",
+      "title": "A method for the extraction of microplastics from solid biowastes including biosolids, compost, and soil for analysis by µ-FTIR",
+      "authors": [
+        "Helena Ruffella",
+        "Olga Pantosb",
+        "Brett Robinsonä",
+        "Sally Gawa"
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Ruffell2024-C1",
+        "module_title": "Inefficiency of Direct Decanting for Supernatant Collection",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly describes the failure of direct decanting in trials with clear explanation of what happened."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Direct Decanting",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency",
+              "description_of_challenge": "Direct decanting of supernatant was not successful as spiked microplastics adhered to the walls of the steel, and seed particulate matter was fed into the filtering apparatus.",
+              "verbatim_quote_of_challenge": "Direct decanting of the supernatant was not successful in our trials. Spiked microplastics did not decant and instead adhered to the walls of the steel, and seed particulate matter was feed into the filtering apparatus.",
+              "source": "Background"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Ruffell2024-C2",
+        "module_title": "Risk of Microplastic Fragmentation During Centrifugation",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The paper explicitly states that centrifuging may fragment microplastics, but provides limited detail on this specific limitation."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Centrifugation",
+          "identified_challenges": [
+            {
+              "challenge_type": "Fragmentation Risk",
+              "description_of_challenge": "Centrifuging of samples may further fragment or compact microplastics into the solids pellet, reducing recovery efficiency.",
+              "verbatim_quote_of_challenge": "Centrifuging of samples may further fragment or compact microplastics into the solids pellet reducing recovery efficiency.",
+              "source": "Background"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Ruffell2024-C3",
+        "module_title": "Spillage and Contamination Issues with Overflow Method",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The paper explicitly describes the limitations of the overflow method, though it's primarily presented as a critique of another study."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Overflow Method",
+          "identified_challenges": [
+            {
+              "challenge_type": "Spillage and Contamination",
+              "description_of_challenge": "The overflow method may agitate the settled fraction and cause excess residual solids to spill over, and introduce contamination by ambient microplastics.",
+              "verbatim_quote_of_challenge": "However, this method may agitate the settled fraction and cause excess residual solids to spill over, and introduce contamination by ambient microplastics.",
+              "source": "Background"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Ruffell2024-C4",
+        "module_title": "Ineffectiveness of Separation Funnels with Biosolids",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 85,
+          "justification": "The paper explicitly states separation funnels were not effective in trials, with explanation of the issue."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Separation Funnels",
+          "identified_challenges": [
+            {
+              "challenge_type": "Ineffectiveness",
+              "description_of_challenge": "Separation funnels were not effective as residual fine particulate material from digested biosolids adhered to the glassware instead of being released when the valve was opened.",
+              "verbatim_quote_of_challenge": "Some methods describe the use of separation funnels where organic material is drained first, however this was not effective in trials in our laboratory as residual fine particulate material from the digested biosolids adhered to the glassware instead of being released when the valve was opened.",
+              "source": "Background"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Ruffell2024-C5",
+        "module_title": "Limitations of SMI Unit for Complex Organic Matrices",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 80,
+          "justification": "The paper states the SMI unit had not been used with complex organic matrices, but the statement is more about the novelty of their approach than a direct criticism of the technique."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Sediment-Microplastic Isolation (SMI) Unit",
+          "identified_challenges": [
+            {
+              "challenge_type": "Limited Applicability",
+              "description_of_challenge": "The SMI unit had not previously been used with digests of complex organic matrices like soil, biosolids, or composts, making the addition of saturated salt solution challenging.",
+              "verbatim_quote_of_challenge": "An SMI unit has not previously been used with digests of complex organic matrices like soil, biosolids, or composts.",
+              "source": "Background"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Ruffell2024-C6",
+        "module_title": "Risk of Microplastic Fragmentation with Mechanical Milling",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states mechanical milling may fragment microplastics and explains why digestion was chosen instead."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Mechanical Milling vs. Digestion",
+          "identified_challenges": [
+            {
+              "challenge_type": "Fragmentation Risk",
+              "description_of_challenge": "Mechanical milling techniques may fragment microplastics, so digestion was selected to disintegrate aggregates by digestion to release potentially trapped microplastics.",
+              "verbatim_quote_of_challenge": "The use of digestion was selected instead of mechanical milling techniques which may fragment microplastics.",
+              "source": "Background"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "A review of the Ruffell et al. (2024) paper identified six key challenges in terrestrial microplastic analysis methods. In the Separation & Filtration stage, direct decanting of supernatant was found to be unsuccessful as microplastics adhered to container walls. Centrifugation risks fragmenting microplastics, while overflow methods may cause spillage and contamination. Separation funnels were ineffective with biosolids due to particulate matter adhering to glassware. The SMI unit had not been previously used with complex organic matrices. In Pre-treatment & Digestion, mechanical milling techniques risk fragmenting microplastics, making digestion necessary to release trapped particles without damaging them. The paper provides a critical assessment of these methodological limitations in extracting microplastics from solid matrices."
+  },
+  {
+    "sop_metadata": "S20056",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a detailed, critical assessment of the challenges and limitations in microplastic analysis methods, explicitly discussing methodological limitations throughout Section 2."
+    },
+    "bibliometric": {
+      "paper_id": "Jung_et_al_2022",
+      "title": "Characterization and regulation of microplastic pollution for protecting planetary and human health",
+      "authors": [
+        "Youn Soo Jung",
+        "Vanitha Sampath",
+        "Mary Prunicki",
+        "Juan Aguilera",
+        "Harry Allen",
+        "Desiree LaBeaud",
+        "Erika Vedi",
+        "Michele Barry",
+        "Barbara Erny",
+        "Lisa Patel",
+        "Cezmi Akdis",
+        "Mubeccel Akdis",
+        "Kari Nadeau"
+      ],
+      "journal": null,
+      "publication_year": 2022,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Jung_et_al_2022-C1",
+        "module_title": "Lack of Gold Standard for MNP Characterization",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states that there is no gold standard for microplastic characterization."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "General methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Standardization Issue",
+              "description_of_challenge": "No universally accepted standard exists for characterizing and quantifying microplastics",
+              "verbatim_quote_of_challenge": "There is currently no gold standard for characterization and quantification of microplastics.",
+              "source": "Section 2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Jung_et_al_2022-C2",
+        "module_title": "Challenges from Diverse Polymer Types and Environments",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states that various polymer types and environmental matrices present significant challenges."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "General methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Complexity Issue",
+              "description_of_challenge": "The diversity of polymer types and environmental matrices complicates extraction and purification processes",
+              "verbatim_quote_of_challenge": "The various polymer types present and the many environments that they need to be extracted and purified from make this challenging.",
+              "source": "Section 2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Jung_et_al_2022-C3",
+        "module_title": "Sample Type Impact on Methodology",
+        "chapter_tags": [
+          "Sampling_And_Representativeness"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states that different sample types require different methodologies."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Sampling & Representativeness",
+          "technique_or_method": "General methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Variability Issue",
+              "description_of_challenge": "Different sample types (water, sediment, soil, tissue, blood) require different sampling methodologies",
+              "verbatim_quote_of_challenge": "Sample type, such as water, sediment, soil, tissue, and blood affects sampling methodologies, as do available technology and research goals.",
+              "source": "Section 2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Jung_et_al_2022-C4",
+        "module_title": "Lack of Method Standardization",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states that method standardization is in early development."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "General methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Standardization Issue",
+              "description_of_challenge": "Method standardization is in early development making it difficult to compare results between studies",
+              "verbatim_quote_of_challenge": "Method standardization is in early development making it difficult to compare results between studies.",
+              "source": "Section 2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Jung_et_al_2022-C5",
+        "module_title": "Variability in Concentration Measurements",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states that concentration measurements vary significantly between studies."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "General methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Standardization Issue",
+              "description_of_challenge": "Concentrations of microplastics reported by different studies can vary by several orders of magnitude due to methodological differences",
+              "verbatim_quote_of_challenge": "Due to differences in methodologies, concentrations of microplastics reported by different studies can vary by several orders of magnitude.",
+              "source": "Section 2"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review paper identifies five key challenges in terrestrial MNP analysis methods. The lack of a gold standard for characterization and quantification (Quality Assurance & Control) is explicitly stated as a fundamental limitation. The diversity of polymer types and environmental matrices creates significant challenges in pre-treatment and digestion phases. Sample type variability (water, sediment, soil, tissue, blood) necessitates different sampling methodologies, impacting representativeness. Critical quality assurance issues include the early development of method standardization and resulting significant variability in concentration measurements across studies (differing by several orders of magnitude), making comparative analysis difficult. These challenges highlight the urgent need for standardized methodologies to support effective microplastic pollution monitoring and regulation."
+  },
+  {
+    "sop_metadata": "S20069",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper explicitly discusses a methodological limitation in the identification and quantification of biodegradable microplastics, specifically noting that soil particles adhered to BDMPs preventing accurate surface area measurements and degradation estimation."
+    },
+    "bibliometric": {
+      "paper_id": "Leach_et_al_2025",
+      "title": "Soil constituents mediate the effects of microplastics from biodegradable mulch on soil biogeochemical properties",
+      "authors": [
+        "Casandra Leach",
+        "Ekta Tiwari",
+        "Seeta Sistla"
+      ],
+      "journal": null,
+      "publication_year": 2025,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Leach_et_al_2025-C1",
+        "module_title": "Limitations in BDMP Surface Area Measurement Due to Soil Adhesion",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitation is explicitly stated in Section 2.5 (Sample processing) describing the methodological constraint in BDMP characterization."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Scanning Electron Microscopy (SEM) for BDMP characterization",
+          "identified_challenges": [
+            {
+              "challenge_type": "Methodological Limitation",
+              "description_of_challenge": "Fine soil particles adhered to BDMP fragments and could not be removed without physical abrasion that would alter their appearance or physical properties, preventing accurate measurement of surface area per weight or degradation estimation over the incubation period.",
+              "verbatim_quote_of_challenge": "Fine soil particles were bound to the plastic fragments and could not be removed without physical abrasion that would alter their appearance or physical properties. Consequently, we were unable to measure the post-incubation surface area per weight of the BDMPs or estimate degradation over the incubation period. Therefore, a qualitative analysis was instead performed.",
+              "source": "Section 2.5. Sample processing"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper by Leach et al. (2025) identifies a critical methodological limitation in the identification and quantification stage of biodegradable microplastic (BDMP) analysis. During sample processing for scanning electron microscopy (SEM) characterization, the researchers found that fine soil particles adhered to BDMP fragments and could not be removed without physical abrasion that would alter the BDMPs' appearance or physical properties. This limitation prevented accurate measurement of post-incubation surface area per weight of BDMPs and estimation of degradation over the incubation period, forcing the researchers to rely on qualitative analysis instead. This challenge highlights the difficulty in isolating microplastics from soil matrices without damaging the samples, which is a significant constraint in accurately assessing BDMP degradation in soil environments."
+  },
+  {
+    "sop_metadata": "S20075",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a detailed, critical assessment of instrumental variation in miniaturized NIR spectrometers for soil microplastic analysis, explicitly discussing challenges in instrument selection and performance differences."
+    },
+    "bibliometric": {
+      "paper_id": "Bec2024",
+      "title": "Rapid on-site analysis of soil microplastics using miniaturized NIR spectrometers: Key aspect of instrumental variation",
+      "authors": [
+        "Bec, Krzysztof B.",
+        "Grabska, Justyna",
+        "Pfeifer, Frank",
+        "Siesler, Heinz W.",
+        "Huck, Christian W."
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Bec2024-C1",
+        "module_title": "Instrumental Variation in NIR Spectrometers",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the variations in key characteristics of handheld and miniaturized spectrometers in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "NIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Instrumental Variation",
+              "description_of_challenge": "Diversity of implemented solutions introduces large variations in key characteristics of handheld and miniaturized spectrometers including operational wavelength region, spectral resolution, signal-to-noise ratio, optimal sample distance, and sample volume acquired during scan.",
+              "verbatim_quote_of_challenge": "Diversity of the implemented solutions introduces large variations in the key characteristics of the available handheld and miniaturized spectrometers. Their operational wavelength region, spectral resolution, signal-to-noise ratio (S/N), the optimal distance to the sample as well as the sensitivity to deviations from that value, or the sample volume acquired during the scan can differ greatly from instrument to instrument.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Bec2024-C2",
+        "module_title": "Varying Analytical Performance Between Instruments",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states that sensor selection is crucial and different instruments provide varying accuracy in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "NIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Analytical Performance",
+              "description_of_challenge": "The analytical performance of specific miniaturized spectrometers varies depending on application, with FT instruments providing more accurate analysis than other handheld instruments.",
+              "verbatim_quote_of_challenge": "Sensor selection proved crucial; FT instruments N-5OO and NeoSpectra Scanner provided the most accurate analysis, while other handheld instruments faced various challenges.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Bec2024-C3",
+        "module_title": "Limited Discriminant Capacity for Polymer Groups",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states that the ability to discriminate certain polymer groups depends on spectral characteristics in the abstract."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "NIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Discriminant Capacity",
+              "description_of_challenge": "The ability of each sensor to discriminate certain groups of polymers strongly depends on its spectral characteristics, making consistent identification challenging across different instruments.",
+              "verbatim_quote_of_challenge": "the ability of each sensor to discriminate certain groups of polymers strongly depends on its spectral characteristics",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Bec2024-C4",
+        "module_title": "Inadequate Characterization of Instrument Differences",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states that differences between benchtop and handheld instruments haven't been characterized in detail in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "NIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "The anticipated difference in analytical performance between laboratory benchtop and handheld/miniaturized instruments has not been characterized in detail, making it difficult to establish standard protocols.",
+              "verbatim_quote_of_challenge": "As no systematic investigation has yet been performed in this area, the anticipated difference in the analytical performance between laboratory benchtop and handheld/miniaturized instruments has not been characterized in detail.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Bec2024-C5",
+        "module_title": "Uninvestigated Impact of Instrument Characteristics",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states that the impact of instrument-specific characteristics hasn't been thoroughly investigated in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "NIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "The impact of instrument-specific characteristics on discriminant capacity for identifying polymer types forming microplastic particles has not been thoroughly investigated, limiting reliable implementation across different devices.",
+              "verbatim_quote_of_challenge": "Additionally, the impact of instrument-specific characteristics on their ultimate discriminant capacity for identifying polymer types forming microplastic particles has not been thoroughly investigated.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Bec2024-C6",
+        "module_title": "Soil Matrix Complexity for Microplastic Analysis",
+        "chapter_tags": [
+          "Sampling_And_Representativeness"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states that soil presents a more challenging matrix for microplastic analysis compared to sediments in the introduction."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Sampling & Representativeness",
+          "technique_or_method": "Soil Sampling for Microplastic Analysis",
+          "identified_challenges": [
+            {
+              "challenge_type": "Matrix Interference",
+              "description_of_challenge": "Agricultural soil presents an even more challenging matrix for microplastic analysis compared to sediments due to its high heterogeneity, complex composition, and significant organic matter content, which can interfere with extraction and analysis.",
+              "verbatim_quote_of_challenge": "agricultural soil presents an even more challenging matrix for microplastic analysis compared to sediments due to its high heterogeneity, complex composition, and significant organic matter content, which can interfere with extraction and analysis.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper by Bec et al. (2024) identifies critical challenges in using miniaturized NIR spectrometers for soil microplastic analysis. The authors emphasize significant instrumental variation between different handheld spectrometers, with key characteristics such as wavelength range, spectral resolution, and signal-to-noise ratio varying substantially between devices. This variation directly impacts analytical performance, with only certain instruments like FT-based devices providing accurate results. The ability to discriminate polymer types is strongly dependent on each sensor's specific spectral characteristics, creating challenges for consistent identification. The study reveals that the differences between benchtop and handheld instruments have not been adequately characterized, and the impact of instrument-specific characteristics on discriminant capacity remains uninvestigated. Additionally, the paper highlights soil's inherent complexity as a challenging matrix for microplastic analysis due to its heterogeneity, complex composition, and organic matter content, which interferes with extraction and analysis processes. These challenges underscore the need for careful sensor selection and standardization in developing portable NIR spectroscopy methods for environmental monitoring of microplastics."
+  },
+  {
+    "sop_metadata": "S20077",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a detailed, critical assessment of quality assurance and quality control protocols for soil microplastics analysis, evaluating 11 criteria across pre-laboratory, during laboratory, and post-laboratory work with explicit discussion of limitations in methodologies."
+    },
+    "bibliometric": {
+      "paper_id": "Shanmugam2022",
+      "title": "Quality assessment of research studies on microplastics in soils: A methodological perspective",
+      "authors": [
+        "Shanmugam, Devi",
+        "Praveena, Sarva Mangala",
+        "Sarkar, Binoy"
+      ],
+      "journal": null,
+      "publication_year": 2022,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Shanmugam2022-C1",
+        "module_title": "Inability to separate high-density microplastics",
+        "chapter_tags": [
+          "Separation_And_Filtration"
+        ],
+        "confidence_score": {
+          "score": 75,
+          "justification": "The limitation is discussed in the introduction section but not in a dedicated limitations section, requiring synthesis of information from the text."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Separation & Filtration",
+          "technique_or_method": "Density Separation",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inability to separate high-density microplastics",
+              "description_of_challenge": "The density separation method cannot effectively separate microplastics of very high density because heavy plastic particles along with other soil components may divide in the same separating phase.",
+              "verbatim_quote_of_challenge": "Although this method is reliable and rapid, it cannot separate microplastics of very high density because the heavy plastic particles along with other soil components may divide in the same separating phase (Cutroneo et al., 2021; Stile et al., 2021).",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Shanmugam2022-C2",
+        "module_title": "Oil extraction technique limits further identification",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 78,
+          "justification": "The limitation is mentioned in the introduction with reference to external studies but requires interpretation of the implications for soil microplastic analysis."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Oil Extraction Technique",
+          "identified_challenges": [
+            {
+              "challenge_type": "Limited further identification",
+              "description_of_challenge": "The oil extraction technique, while making extraction easier through oleophilic properties, limits further identification as oil traces cannot be eliminated from the microplastics.",
+              "verbatim_quote_of_challenge": "The oil extraction technique exploits the oleophilic properties of microplastics, whereby the oil encapsulates the microplastics for easier extraction. However, further identification is limited as oil traces could not be eliminated (Scopetani et al., 2020).",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Shanmugam2022-C3",
+        "module_title": "Inadequate implementation of quality assurance protocols",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper has dedicated results and discussion sections explicitly evaluating quality assurance criteria with quantitative scores and clear discussion of limitations."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "Quality Assurance Protocols",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of negative controls",
+              "description_of_challenge": "The negative control criterion received the lowest average score of 0.89, indicating significant deficiency in implementation of negative controls across soil microplastic studies.",
+              "verbatim_quote_of_challenge": "Criterion with the highest average score of 2.0 was obtained for sample size and data reporting. The lowest average score of 0.89 was for the negative control. In conclusion, the total average scores for all eleven criteria were 1.56. Current quality assessment perceived that there was room for improvement and betterment of quality assurance for studies on microplastics and a form of guideline on methodological aspects of soil microplastics studies. It was suggested that future microplastics studies should methodically include quality assurance/quality control (QA/QC) protocols in every process to ensure that good quality data is produced and applied in the risk assessment process.",
+              "source": "Results and Discussion"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "This review paper provides a critical assessment of quality assurance protocols for soil microplastic analysis, identifying key challenges across the analytical workflow. The density separation method (a common extraction technique) cannot separate high-density microplastics as heavy particles divide with soil components in the same phase. The oil extraction technique, while facilitating extraction, limits further identification due to persistent oil traces. Most critically, quality assurance protocols show significant deficiencies, with negative controls receiving the lowest average score (0.89) among 11 evaluated criteria, while sample size and data reporting scored highest (2.0). The total average score across all criteria was 1.56, indicating substantial room for improvement in methodological quality assurance for soil microplastic studies. The paper strongly recommends that future studies must methodically include QA/QC protocols at every analytical stage to produce reliable data for risk assessment."
+  },
+  {
+    "sop_metadata": "S20078",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper is titled 'Quality assessment of research studies on microplastics in soils: A methodological perspective' and appears to be critically evaluating methodology based on the title and abstract fragment provided in the HTML metadata."
+    },
+    "bibliometric": {
+      "paper_id": "S0045653522005197",
+      "title": "Quality assessment of research studies on microplastics in soils: A methodological perspective",
+      "authors": null,
+      "journal": "Chemosphere",
+      "publication_year": null,
+      "doi": "10.1016/j.chemosphere.2022.134026"
+    },
+    "challenge_modules": [],
+    "markdownCard": "HTML content is truncated; only the first half of the paper is provided, which is insufficient to extract detailed challenge modules. The metadata suggests this is an in-scope paper with a methodological focus, but the actual content containing specific challenges, limitations, and verbatim quotes needed for extraction is not available in the provided fragment."
+  },
+  {
+    "sop_metadata": "S20079",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This review paper provides a critical assessment of the limitations of traditional methods for soil microplastic analysis, explicitly discussing challenges related to pre-treatment complexity and quantification difficulties."
+    },
+    "bibliometric": {
+      "paper_id": "Yan et al. - 2024",
+      "title": "Qualitative and quantitative detection of microplastics in soil based on LIF technology combined with OOA-ELM/SPA-PLS",
+      "authors": [
+        "Pengcheng Yan",
+        "Guodong Li",
+        "Wenchang Wang",
+        "Yuting Zhao",
+        "Jingbao Wang",
+        "Ziming Wen"
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Yan et al. - 2024-C1",
+        "module_title": "Pre-treatment Complexity and Contamination Issues",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitation is clearly stated in the introduction section with specific explanation of time consumption and contamination issues during sample pre-treatment."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Chemical digestion, density separation, staining",
+          "identified_challenges": [
+            {
+              "challenge_type": "Time Consumption",
+              "description_of_challenge": "The pre-treatment of samples by these traditional methods is complicated and takes a long time.",
+              "verbatim_quote_of_challenge": "The pre-treatment of samples by these methods is complicated and takes a long time.",
+              "source": "Introduction"
+            },
+            {
+              "challenge_type": "Contamination Sensitivity",
+              "description_of_challenge": "These methods are very sensitive to contamination during sample pretreatment, which may lead to increased errors.",
+              "verbatim_quote_of_challenge": "At the same time, it is also very sensitive to contamination during sample pretreatment, which may lead to increased errors [19].",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Yan et al. - 2024-C2",
+        "module_title": "Quantification Limitations in Traditional Methods",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitation is explicitly stated in the abstract with clear explanation of quantification difficulties."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Traditional detection methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Qualitative Limitation",
+              "description_of_challenge": "Traditional methods often only provide qualitative analysis of microplastics and are difficult to accurately quantify.",
+              "verbatim_quote_of_challenge": "Traditional methods for detecting soil microplastics include chemical digestion, density separation, staining, etc. These methods often only provide qualitative analysis of microplastics and are dificult to accurately quantify.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper identifies two key challenges in traditional soil microplastic analysis methods. First, pre-treatment processes using chemical digestion and density separation are complicated, time-consuming, and highly susceptible to contamination during sample preparation, leading to potential errors. Second, traditional methods generally only provide qualitative analysis and struggle with accurate quantification of microplastics. These limitations are explicitly discussed in the abstract and introduction sections with high confidence, highlighting the need for alternative approaches like LIF technology which the paper proposes as a solution."
+  },
+  {
+    "sop_metadata": "S20081",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "This paper provides a detailed critical assessment of limitations in current methods for soil microplastic analysis, discussing specific challenges with existing techniques including human error, time consumption, lack of standardization, and quality control issues."
+    },
+    "bibliometric": {
+      "paper_id": "Corradini-2019",
+      "title": "Predicting soil microplastic concentration using vis-NIR spectroscopy",
+      "authors": [
+        "Corradini",
+        "Bartholomeus",
+        "Huerta Lwanga",
+        "Gertsen",
+        "Geissen"
+      ],
+      "journal": "Not Mentioned in Paper",
+      "publication_year": 2018,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Corradini-2019-C1",
+        "module_title": "Limitations of Visual Sorting for Microplastic Identification",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The paper explicitly states the limitation with a specific citation to supporting literature."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Visual sorting",
+          "identified_challenges": [
+            {
+              "challenge_type": "Human Error / Subjectivity",
+              "description_of_challenge": "Visual sorting is subject to bias from human errors and precision limitations that affect accuracy in microplastic identification.",
+              "verbatim_quote_of_challenge": "While the former is subject to bias from human-errors and precision limitations (Ziajahromi et al., 2017)",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Corradini-2019-C2",
+        "module_title": "Time-Consuming Nature of Current Microplastic Analysis Methods",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The limitation is explicitly stated in the abstract as a major obstacle to research."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Current methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Efficiency Bottleneck",
+              "description_of_challenge": "Existing techniques are time-consuming which prevents the collection of field data and hinders large-scale monitoring.",
+              "verbatim_quote_of_challenge": "Existing techniques are time-consuming and field data are seldom collected.",
+              "source": "Abstract"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Corradini-2019-C3",
+        "module_title": "Lack of Standardization for Soil Matrices",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states this limitation in the introduction with specific reference to soil matrices."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "FT-IR spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "Current spectroscopic methods have not been standardized for complex soil matrices, requiring additional preparation steps that vary between studies.",
+              "verbatim_quote_of_challenge": "these methods have not been standardized for complex matrices such as soils and require appropriate sample preparation",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Corradini-2019-C4",
+        "module_title": "Limitations of Pyrolysis-Gas Chromatography-Mass Spectrometry",
+        "chapter_tags": [
+          "Pre-treatment_And_Digestion"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The limitation is explicitly stated with specific reasons why the method is problematic."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Pre-treatment & Digestion",
+          "technique_or_method": "Pyrolysis-gas chromatography-mass spectrometry (Pyr-GC-MS)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Inefficiency for Large Samples",
+              "description_of_challenge": "Pyr-GC-MS requires additional concentration or separation steps which limit the analysis of large quantities of microplastics.",
+              "verbatim_quote_of_challenge": "Pyr-GC-MS presents some drawbacks since it needs adequate concentration or separation steps, which could limit the analysis of large quantities of microplastics",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Corradini-2019-C5",
+        "module_title": "Insufficient Standard Sampling and Processing Methods",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The paper explicitly states this limitation with a citation to supporting literature."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "General sampling and processing methods",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Standardization",
+              "description_of_challenge": "Standard sampling and processing methods for microplastics in organic-rich soil samples are still insufficient for reliable analysis.",
+              "verbatim_quote_of_challenge": "Ziajahromi et al. (2017) pointed out that standard sampling and processing methods for microplastics in organic-rich samples are still insufficient",
+              "source": "Introduction"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Corradini-2019-C6",
+        "module_title": "Lack of Quality Control Procedures in Microplastic Studies",
+        "chapter_tags": [
+          "Quality_Assurance_And_Control"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The limitation is explicitly stated in the introduction with clear description of the issue."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Quality Assurance & Control",
+          "technique_or_method": "General methodology",
+          "identified_challenges": [
+            {
+              "challenge_type": "Lack of Quality Control",
+              "description_of_challenge": "Studies on soil microplastics have seldom reported recovery rates or quality control procedures, making it difficult to validate results.",
+              "verbatim_quote_of_challenge": "These studies have seldom reported recovery rates or quality control procedures.",
+              "source": "Introduction"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "A review of current methods for soil microplastic analysis identified six key challenges: (1) visual sorting is subject to human error and precision limitations; (2) current methods are time-consuming, preventing field data collection; (3) lack of standardization for soil matrices; (4) Pyr-GC-MS requires additional concentration/separation steps that limit large-scale analysis; (5) insufficient standard sampling and processing methods for organic-rich samples; and (6) lack of quality control procedures in studies. These limitations highlight the critical need for standardized approaches like the vis-NIR spectroscopy method proposed in this paper to enable more efficient and reliable microplastic analysis in terrestrial environments."
+  },
+  {
+    "sop_metadata": "S20083",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "The paper provides a dedicated section (5.2) discussing advantages and limitations of microplastic analysis methods, with explicit identification of methodological challenges and limitations in the identification and quantification workflow."
+    },
+    "bibliometric": {
+      "paper_id": "Khan_et_al_2024",
+      "title": "Soil microplastics: Impacts on greenhouse gasses emissions, carbon cycling, microbial diversity, and soil characteristics",
+      "authors": [
+        "Ismail Khana",
+        "Muhammad Tariqa",
+        "Khulood Fahad Alabboshb",
+        "Abdul Rehman",
+        "Abdul Jalala",
+        "Asif Ali Khand",
+        "Muhammad Farooq",
+        "Guanlin Liaf",
+        "Babar Iqbala",
+        "Naveed Ad Khalid Ali Khanh",
+        "Daolin Dui"
+      ],
+      "journal": null,
+      "publication_year": 2024,
+      "doi": null
+    },
+    "challenge_modules": [
+      {
+        "module_id": "Khan_et_al_2024-C1",
+        "module_title": "Visual Sorting Limitations in Microplastic Identification",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 95,
+          "justification": "The limitations are explicitly stated in Section 5.2 with specific error rates and technical limitations."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Visual Sorting with Fluorescence Microscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Accuracy Limitation",
+              "description_of_challenge": "Visual identification under light microscopy is prone to bias with error rates ranging from 20 to 70%, making results unreliable.",
+              "verbatim_quote_of_challenge": "Visual identification under a light microscope is also prone to bias, with error rates ranging from 20 to 70%.",
+              "source": "Section 5.2"
+            },
+            {
+              "challenge_type": "Sensitivity Limitation",
+              "description_of_challenge": "The method is less productive for particles smaller than 50 μm and cannot detect all plastic particles due to brightness threshold requirements.",
+              "verbatim_quote_of_challenge": "staining microplastics with Nile Red and using a fluorescence microscope improves their visibility, but this method is less productive for particles lesser than 50 μm and does not give information about their composition. Additionally, not all plastic particles may meet the brightness threshold for detection",
+              "source": "Section 5.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Khan_et_al_2024-C2",
+        "module_title": "FTIR Spectroscopy Analysis Constraints",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 92,
+          "justification": "The limitations are explicitly stated in Section 5.2 with specific technical constraints clearly explained."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "FTIR Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Sample Preparation Limitation",
+              "description_of_challenge": "The method cannot analyze wet materials, requiring complete drying which may alter sample properties.",
+              "verbatim_quote_of_challenge": "wet materials cannot be analyzed using this method",
+              "source": "Section 5.2"
+            },
+            {
+              "challenge_type": "Technical Artifact",
+              "description_of_challenge": "Irregularly shaped microplastics cause light scattering, leading to nonlinearities in the spectrum and variations in effective path length.",
+              "verbatim_quote_of_challenge": "irregularly shaped microplastics can result in light scattering, leading to nonlinearities in the spectrum and variations in effective path length",
+              "source": "Section 5.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Khan_et_al_2024-C3",
+        "module_title": "vis-NIR Spectroscopy Precision Constraints",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 90,
+          "justification": "The limitations are clearly stated with specific numerical values for precision and detection limits in Section 5.2."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Near-infrared Spectroscopy (vis-NIR)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Detection Limit",
+              "description_of_challenge": "The method has low precision (10 g kg^-1) and detection limit (15 g kg^-1), making it only suitable for locating microplastics rather than precise quantification.",
+              "verbatim_quote_of_challenge": "because of its low precision (10 g kg^-1) and detection limit (15 g kg^-1), it is only helpful for locating microplastics",
+              "source": "Section 5.2"
+            },
+            {
+              "challenge_type": "Spectral Interference",
+              "description_of_challenge": "Unrecognizable spectra can be caused by water interference and intense absorption of infrared radiation by particles.",
+              "verbatim_quote_of_challenge": "Unrecognizable spectra can also be caused by water interference and particles' intense absorption of infrared radiation",
+              "source": "Section 5.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Khan_et_al_2024-C4",
+        "module_title": "Raman Spectroscopy Signal Interference Issues",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 93,
+          "justification": "The limitations are explicitly detailed in Section 5.2 with specific causes of signal interference."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Raman Spectroscopy",
+          "identified_challenges": [
+            {
+              "challenge_type": "Spectral Interference",
+              "description_of_challenge": "Background fluorescence from organic, inorganic, and biological contaminants in polymers obstructs genuine spectra and renders them unrecognizable.",
+              "verbatim_quote_of_challenge": "background fluorescence from organic, inorganic, and biological contaminants in polymers may significantly obstruct the genuine spectra and render them unrecognizable",
+              "source": "Section 5.2"
+            },
+            {
+              "challenge_type": "Signal Quality",
+              "description_of_challenge": "The technique suffers from low signal-to-noise ratio which limits detection capabilities.",
+              "verbatim_quote_of_challenge": "the constraint is a low signal-to-noise ratio",
+              "source": "Section 5.2"
+            }
+          ]
+        }
+      },
+      {
+        "module_id": "Khan_et_al_2024-C5",
+        "module_title": "Hyperspectral Imaging Practical Limitations",
+        "chapter_tags": [
+          "Identification_And_Quantification"
+        ],
+        "confidence_score": {
+          "score": 91,
+          "justification": "The limitations are clearly stated in Section 5.2 with specific size constraints and cost-related issues."
+        },
+        "process_and_challenge": {
+          "workflow_stage": "Identification & Quantification",
+          "technique_or_method": "Hyperspectral Imaging (HSI)",
+          "identified_challenges": [
+            {
+              "challenge_type": "Size and Depth Limitation",
+              "description_of_challenge": "HSI is restricted to scanning microplastics with diameters of 0.5 to 5 mm and cannot reach polymer particles in deeper soil layers.",
+              "verbatim_quote_of_challenge": "HSI is restricted to scanning microplastics with diameters ranging (0.5 to 5 mm), and cannot reach polymer particles in deeper soil layers",
+              "source": "Section 5.2"
+            },
+            {
+              "challenge_type": "Economic Barrier",
+              "description_of_challenge": "The high expense of HSI equipment hampers its widespread deployment in research and monitoring.",
+              "verbatim_quote_of_challenge": "the high expense of HSI hampers its widespread deployment",
+              "source": "Section 5.2"
+            }
+          ]
+        }
+      }
+    ],
+    "markdownCard": "The paper identifies multiple challenges in microplastic identification and quantification methods. Visual sorting shows high error rates (20-70%) and cannot detect small particles (<50 μm). FTIR spectroscopy cannot analyze wet samples and is affected by light scattering from irregular particles. vis-NIR has low precision (10 g kg^-1) and detection limits (15 g kg^-1). Raman spectroscopy suffers from background fluorescence interference and low signal-to-noise ratio. Hyperspectral imaging is limited to particles 0.5-5 mm in size, cannot reach deeper soil layers, and has high costs. All limitations are explicitly documented in Section 5.2 with high confidence scores (90-95), indicating the paper provides a robust critical assessment of methodological constraints in terrestrial MNP analysis."
+  },
+  {
+    "sop_metadata": "S20085",
+    "relevance_assessment": {
+      "status": "In-Scope",
+      "justification": "HTML information was insufficient to properly assess whether the paper provides a critical evaluation of MNP analysis methods. Only metadata was available with no access to abstract, introduction, or discussion sections needed for relevance triage."
+    },
+    "bibliometric": {
+      "paper_id": "S0304389424020454",
+      "title": "Using machine learning to reveal drivers of soil microplastics and assess their stock: A national-scale study",
+      "authors": null,
+      "journal": "Journal of Hazardous Materials",
+      "publication_year": 2024,
+      "doi": "10.1016/j.jhazmat.2024.135466"
+    },
+    "challenge_modules": null,
+    "markdownCard": null
+  }
+]

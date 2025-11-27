@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Style Interactive Charts</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</head>
+
+<body>
+    <!-- 顶部控制栏 -->
+    <header class="control-bar">
+        <div class="logo">
+            <span class="logo-icon">📊</span>
+            <span class="logo-text">Nature Charts Studio</span>
+        </div>
+        <div class="global-controls">
+            <button id="toggleLabels" class="ctrl-btn" title="切换标签显示">
+                <span class="icon">🏷️</span> 标签
+            </button>
+            <button id="editMode" class="ctrl-btn" title="编辑模式">
+                <span class="icon">✏️</span> 编辑
+            </button>
+            <div class="color-scheme-selector">
+                <label>配色方案:</label>
+                <select id="colorScheme">
+                    <option value="npg">NPG Standard</option>
+                    <option value="nature">Nature Classic</option>
+                    <option value="science">Science Blue</option>
+                    <option value="custom">自定义</option>
+                </select>
+            </div>
+            <button id="importCSV" class="ctrl-btn" title="导入CSV">
+                <span class="icon">📁</span> 导入CSV
+            </button>
+            <button id="loadRealData" class="ctrl-btn" title="提取真实数据">
+                <span class="icon">🔍</span> 提取真实数据
+            </button>
+            <input type="file" id="csvFileInput" accept=".csv" style="display:none">
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="main-content">
+        <!-- 图表选择标签页 -->
+        <nav class="chart-tabs">
+            <button class="tab-btn active" data-chart="table2">Table 2: AI性能热力表</button>
+            <button class="tab-btn" data-chart="figure3">Figure 3: 雨云图</button>
+            <button class="tab-btn" data-chart="figure4">Figure 4: AI流程图</button>
+        </nav>
+
+        <!-- 图表容器 -->
+        <div class="chart-container">
+            <!-- Table 2 容器 -->
+            <div id="table2-container" class="chart-panel active">
+                <div class="chart-header">
+                    <h2>Table 2: Spectral Analysis AI Performance Overview</h2>
+                    <div class="chart-actions">
+                        <button class="action-btn zoom-btn" data-target="table2" title="全屏查看">🔍</button>
+                        <button class="action-btn export-png" data-target="table2" title="导出PNG">📷</button>
+                        <button class="action-btn export-svg" data-target="table2" title="导出SVG">📐</button>
+                    </div>
+                </div>
+                <div id="table2-chart" class="chart-area"></div>
+            </div>
+
+            <!-- Figure 3 容器 -->
+            <div id="figure3-container" class="chart-panel">
+                <div class="chart-header">
+                    <h2>Figure 3: Image Recognition Performance Raincloud Plot</h2>
+                    <div class="chart-actions">
+                        <button class="action-btn zoom-btn" data-target="figure3" title="全屏查看">🔍</button>
+                        <button class="action-btn export-png" data-target="figure3" title="导出PNG">📷</button>
+                        <button class="action-btn export-svg" data-target="figure3" title="导出SVG">📐</button>
+                    </div>
+                </div>
+                <div id="figure3-chart" class="chart-area"></div>
+            </div>
+
+            <!-- Figure 4 容器 -->
+            <div id="figure4-container" class="chart-panel">
+                <div class="chart-header">
+                    <h2>Figure 4: AI Strategy for Complex Environmental Scenarios</h2>
+                    <div class="chart-actions">
+                        <button class="action-btn zoom-btn" data-target="figure4" title="全屏查看">🔍</button>
+                        <button class="action-btn export-png" data-target="figure4" title="导出PNG">📷</button>
+                        <button class="action-btn export-svg" data-target="figure4" title="导出SVG">📐</button>
+                    </div>
+                </div>
+                <div id="figure4-chart" class="chart-area"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 全屏查看模态框 -->
+    <div id="fullscreenModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h3 id="modal-title"></h3>
+                <div class="modal-controls">
+                    <button id="modal-zoom-in" class="modal-btn">➕ 放大</button>
+                    <button id="modal-zoom-out" class="modal-btn">➖ 缩小</button>
+                    <button id="modal-reset" class="modal-btn">🔄 重置</button>
+                </div>
+            </div>
+            <div id="modal-chart-container" class="modal-chart"></div>
+        </div>
+    </div>
+
+    <!-- 编辑面板 -->
+    <div id="editPanel" class="edit-panel hidden">
+        <div class="edit-panel-header">
+            <h3>编辑面板</h3>
+            <button id="closeEditPanel" class="close-btn">&times;</button>
+        </div>
+        <div class="edit-panel-content">
+            <div class="edit-section">
+                <h4>选中元素</h4>
+                <p id="selectedElement">未选择任何元素</p>
+            </div>
+            <div class="edit-section">
+                <h4>文本内容</h4>
+                <input type="text" id="editText" placeholder="修改文本内容">
+                <button id="applyTextChange" class="apply-btn">应用</button>
+            </div>
+            <div class="edit-section">
+                <h4>颜色</h4>
+                <input type="color" id="editColor" value="#E64B35">
+                <button id="applyColorChange" class="apply-btn">应用</button>
+            </div>
+            <div class="edit-section">
+                <h4>操作</h4>
+                <button id="deleteElement" class="danger-btn">删除元素</button>
+                <button id="duplicateElement" class="action-btn">复制元素</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 自定义配色面板 -->
+    <div id="customColorPanel" class="color-panel hidden">
+        <div class="color-panel-header">
+            <h3>自定义配色</h3>
+            <button id="closeColorPanel" class="close-btn">&times;</button>
+        </div>
+        <div class="color-panel-content">
+            <div class="color-item">
+                <label>主色 (红色系):</label>
+                <input type="color" id="customRed" value="#E64B35">
+            </div>
+            <div class="color-item">
+                <label>辅色 (蓝色系):</label>
+                <input type="color" id="customBlue" value="#4DBBD5">
+            </div>
+            <div class="color-item">
+                <label>强调色 (绿色系):</label>
+                <input type="color" id="customGreen" value="#00A087">
+            </div>
+            <div class="color-item">
+                <label>背景色 (深蓝系):</label>
+                <input type="color" id="customDarkBlue" value="#3C5488">
+            </div>
+            <button id="applyCustomColors" class="apply-btn full-width">应用配色</button>
+        </div>
+    </div>
+
+    <!-- 加载脚本 -->
+    <script src="colorSchemes.js"></script>
+    <script src="table2.js"></script>
+    <script src="figure3.js"></script>
+    <script src="figure4.js"></script>
+    <script src="data_loader.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
